@@ -8,6 +8,7 @@ import { Lora } from "next/font/google";
 import { LanguageData, LanguageDropdownMenuProps } from "@/types/types";
 // import LanguageLink from "./LanguageLink";
 import { useLocale } from "next-intl";
+import LanguageLink from "./LanguageLink";
 
 const lora = Lora({ subsets: ["latin"] });
 
@@ -15,21 +16,21 @@ const LanguageDropdownMenu = ({containerStyles, iconStyles} : LanguageDropdownMe
     const [currentLanguageFlag, setCurrentLanguageFlag] = useState(languages[0].flag);
     const [isOpen, setIsOpen] = useState(false);
     
-    // const currentLocale = useLocale();
+    const currentLocale = useLocale();
     
-    // useEffect(() => {
-    //     setCurrentLanguageFlag(getFlagByLocale(currentLocale));
-    // }, [currentLocale]);
+    useEffect(() => {
+        setCurrentLanguageFlag(getFlagByLocale(currentLocale));
+    }, [currentLocale]);
 
-    // const getFlagByLocale = (locale: string): string => {
-    //     const language = languages.find(lang => lang.isoCode === locale);
-    //     return language ? language.flag : "";
-    // }
+    const getFlagByLocale = (locale: string): string => {
+        const language = languages.find(lang => lang.isoCode === locale);
+        return language ? language.flag : "";
+    }
     
-    // const handleChangeLanguage = (language: LanguageData): void => {
-    //     setIsOpen(isOpen => !isOpen);
-    //     setCurrentLanguageFlag(language.flag);
-    // }
+    const handleChangeLanguage = (language: LanguageData): void => {
+        setIsOpen(isOpen => !isOpen);
+        setCurrentLanguageFlag(language.flag);
+    }
     
     return (
         <div className={`${lora.className} ${containerStyles} border-2 relative rounded-xl p-2 transition-all duration-700 
@@ -50,13 +51,13 @@ const LanguageDropdownMenu = ({containerStyles, iconStyles} : LanguageDropdownMe
                     <ChevronUp className={`w-4 ${iconStyles}`}/>
                 }
             </div>
-            {/* <div className={`text-grey-600 transition-all duration-1000 
+            <div className={`text-grey-600 transition-all duration-1000 
             ${isOpen ? 'max-h-[155px] opacity-100 p-1 my-2' : 'max-h-0 opacity-0'}`}
             >
                 <LanguageLink index={0} locale="en" handleChangeLanguage={handleChangeLanguage}/>
                 <LanguageLink index={1} locale="es" handleChangeLanguage={handleChangeLanguage}/>
                 <LanguageLink index={2} locale="no" handleChangeLanguage={handleChangeLanguage}/>
-            </div> */}
+            </div>
         </div>
     );
 }
