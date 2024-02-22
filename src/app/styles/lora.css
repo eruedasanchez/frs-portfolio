@@ -1,0 +1,7 @@
+@font-face {
+    font-family: 'lorabold_italic';
+    src:    url('/fonts/lora/lora-bolditalic-webfont.woff2') format('woff2'),
+            url('/fonts/lora/lora-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

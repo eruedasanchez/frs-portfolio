@@ -1,0 +1,7 @@
+@font-face {
+    font-family: 'dream_avenueregular';
+    src: url('/fonts/dreamAvenue/fontsfree-net-dream-avenue-webfont.woff2') format('woff2'),
+        url('/fonts/dreamAvenue/fontsfree-net-dream-avenue-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

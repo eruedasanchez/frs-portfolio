@@ -1,0 +1,268 @@
+{
+    "LocaleLayout": {
+        "title": "Florencia Rueda Sanchez Portafolio | Inicio"
+    },
+    "NotFoundPage": {
+        "title": "Pagina no encontrada",
+        "description": "Vuelva a verificar la barra de direcciones del navegador o utilice la navegación para ir a una página conocida."
+    },
+    "Error": {
+        "title": "¡Algo salió mal!",
+        "description": "<p>Desafortunadamente hemos encontrado un error.</p><p>Puedes intentar <retry>recargar la página</retry> que estabas visitando.</p>"
+    },
+    "Error-404": {
+        "title": "404 | Not Found",
+        "description": "Página no encontrada"
+    },
+    "Header": {
+        "NavLinks": {
+            "firstLink": {
+                "label": "Inicio",
+                "url": "/"
+            },
+            "secondLink":{
+                "label": "Acerca",
+                "url": "/about"
+            },
+            "thirdLink":{
+                "label": "Portafolio",
+                "url": "/portfolio"
+            },
+            "fourthLink":{
+                "label": "Contacto",
+                "url": "/contact"
+            }
+        },
+        "ContactMe":"Contactame"
+    },
+    "Footer": {
+        "copyrightStart":"Copyright ©",
+        "copyrightEnd":"Florencia Rueda Sánchez. Todos los derechos reservados",
+        "location":"Oslo, Noruega"
+    },
+    "Hero": {
+        "header":"¡Hola!",
+        "title": "Florencia, bienvenida seas.",
+        "description": "Como guía turístico, voy más allá de señalar atractivos, invitando a los viajeros a descubrir experiencias auténticas. Mi portafolio refleja una pasión por sumergir a los visitantes en la riqueza cultural. Cuenta historias únicas y ofrece una puerta de entrada a la aventura con detalles seleccionados, recomendaciones culinarias y experiencias locales memorables, creando recuerdos duraderos.",
+        "contact":"Contactame",
+        "viewPortfolio":"Ver Portafolio"
+    },
+    "Stats": {
+        "customers":"Clientes Satisfechos",
+        "visited":"Paises Visitados",
+        "experience":"Años de Experiencia"
+    },
+    "Skills": {
+        "SectionHeading": {
+            "title":"Habilidades creativas",
+            "subtitle":"Descubre destinos únicos con una guía que despierta la creatividad y ofrece experiencias memorables."
+        },
+        "skillsData": {
+            "firstSkill": {
+                "name": "Conocimiento del destino",
+                "description": "Conocimiento profundo sobre lugares turísticos, historia, cultura, gastronomía y otros aspectos relevantes de los destinos que guías.",
+                "icon": "/service-1.svg"
+            },
+            "secondSkill": {
+                "name": "Conocimiento de las normas y regulaciones turísticas.",
+                "description": "Conocimiento sólido de los estándares y regulaciones de turismo local para garantizar el cumplimiento de las leyes y estándares de seguridad.",
+                "icon": "/service-2.svg"
+            },
+            "thirdSkill": {
+                "name": "Habilidades de comunicación",
+                "description": "Excelente comunicación, capaz de transmitir información de una manera clara, interesante y atractiva a personas de diferentes culturas y orígenes.",
+                "icon": "/service-3.svg"
+            },
+            "fourthSkill": {
+                "name": "Fotografía turística",
+                "description": "Habilidades como encuadre, composición, manejo de la luz y conocimientos técnicos básicos de la fotografía para obtener imágenes impactantes que el turista podrá llevarse como recuerdo de su experiencia.",
+                "icon": "/service-4.svg"
+            },
+            "fifthSkill": {
+                "name": "Lenguajes",
+                "description": "Habilidades en varios idiomas como español, inglés, portugués e italiano para comunicarse con turistas internacionales.",
+                "icon": "/service-5.svg"
+            },
+            "sixthSkill": {
+                "name": "Orientación y Navegación",
+                "description": "Fuertes habilidades de orientación y navegación para guiar a los turistas de manera segura y eficiente a través de destinos desconocidos.",
+                "icon": "/service-6.svg"
+            }
+        }
+    },
+    "Benefits": {
+        "SectionHeading": {
+            "title":"Beneficios",
+            "subtitle":"Aprovechar la experiencia de un guía turístico desbloquea experiencias enriquecidas, gemas ocultas y aventuras perfectas."
+        },
+        "benefitsData": {
+            "firstBenefit": {
+                "name": "Conocimiento local",
+                "description": "Tengo un profundo conocimiento sobre los destinos que visitaste. Puedo proporcionar información detallada sobre la historia, la cultura, la cocina y los puntos de interés locales que los turistas de otra manera no conocerían."
+            },
+            "secondBenefit": {
+                "name": "Experiencia personalizada",
+                "description": "Puedo adaptar los tours según los intereses y necesidades específicas de los turistas. Además, ofrezco recomendaciones y sugerencias personalizadas sobre qué ver y hacer según los intereses individuales."
+            },
+            "thirdBenefit": {
+                "name": "Acceso privilegiado",
+                "description": "Tengo acceso privilegiado a ciertos lugares y actividades que pueden no estar disponibles para el público en general. Esto puede incluir acceso a sitios históricos, eventos exclusivos o experiencias únicas que enriquecen la visita del turista."
+            },
+            "fourthBenefit": {
+                "name": "Codificación optimizada para dispositivos móviles para una accesibilidad generalizada",
+                "description": "En el panorama actual impulsado por dispositivos móviles, un sitio web responsivo es esencial. Me especializo en codificar diseños aptos para dispositivos móviles que se adaptan perfectamente a varios dispositivos y tamaños de pantalla. Su sitio web mantendrá su apariencia y funcionalidad en computadoras de escritorio, teléfonos inteligentes y tabletas, permitiéndole llegar e involucrar a su audiencia de manera efectiva."
+            },
+            "fifthBenefit": {
+                "name": "Seguridad y comodidad",
+                "description": "Proporciono un ambiente seguro y cómodo para los turistas cuando navegan por destinos desconocidos. Ellos conocen áreas seguras y los ayudo a evitar situaciones potencialmente peligrosas."
+            }
+        }
+    },
+    "Portfolio": {
+        "SectionHeading": {
+            "title":"Mis trabajos",
+            "subtitle":"Explora mis viajes y descubre los destinos que he ayudado a explorar y disfrutar."
+        },
+        "ViewPortfolio":"Ver Mi Portafolio",
+        "Titles": {
+            "firstTitle": { "name": "Buenos Aires Bus - BA" },
+            "secondTitle": { "name": "Sturla Viajes - BA" },
+            "thirdTitle": { "name": "Ruta del Vino - Mendoza" },
+            "fourthTitle": { "name": "Circuito Chico - Bariloche" },
+            "fifthTitle": { "name": "Cataratas del Iguazu - Misiones" },
+            "sixthTitle": { "name": "Purmamarca - Jujuy"}, 
+            "seventhTitle": { "name": "Glaciar Perito Moreno - Santa Cruz"}, 
+            "eighthTitle": { "name": "Ciudad de Oslo - Noruega"},
+            "ninthTitle": { "name": "Amsterdam - Paises Bajos"}
+        }
+    },
+    "Testimonials": {
+        "SectionHeading": {
+            "title": "Lo que mis clientes dicen de mí",
+            "subtitle": "Descubra lo que los viajeros tienen que decir sobre sus experiencias con mis servicios de guía turístico."
+        },
+        "TestimonialsData":{
+            "firstTestimonial": {
+                "name": "Marcos Morales",
+                "designation": "Bus de Buenos Aires - Socio",
+                "review": "Florencia es la definición misma de profesionalismo y dedicación. Trabajar con ella fue un verdadero placer. No dudaría en recomendar a Florencia como colega a cualquiera que busque un compañero de trabajo excepcional en la industria del turismo"
+            },
+            "secondTestimonial": {
+                "name": "German Martinez",
+                "designation": "Buenos Aires Bus - Turista",
+                "review": "¡Una experiencia increíble! Florencia no solo tiene un profundo conocimiento de la historia y la cultura de la región, sino que también tiene una pasión contagiosa por compartirla. Su entusiasmo hizo que cada momento fuera memorable. Sus vívidas historias y fascinantes anécdotas trajeron. Los lugares que visitamos cobraron vida. Además, su atención personalizada y amabilidad nos hicieron sentir como si estuviéramos explorando con un amigo de toda la vida"
+            },
+            "thirdTestimonial": {
+                "name": "Julieta Gonzalez",
+                "designation": "Sturla Viajes - Turista",
+                "review": "Florencia es simplemente excepcional en su papel como guía de turismo fluvial en el delta. Su experiencia y habilidad para guiar a los viajeros a través de canales y vías fluviales es realmente asombrosa. Cada momento del viaje estuvo lleno de descubrimientos fascinantes y aventuras emocionantes. ¡Una experiencia inolvidable que recomendaría a cualquiera que desee explorar esta maravillosa zona!"
+        
+            },
+            "fourthTestimonial": {
+                "name": "Romina Fernandez",
+                "designation": "Turismo de Oslo - Socio",
+                "review": "Mi más profundo agradecimiento a Florencia por su increíble ayuda y orientación durante mis primeras experiencias como guía turística en Oslo, Noruega. Su apoyo incondicional y conocimiento fueron fundamentales para mi éxito. Su paciencia, amabilidad y dedicación son invaluables. y estoy eternamente agradecida de haber tenido la oportunidad de aprender de ella."
+            },
+            "fifthTestimonial": {
+                "name": "Solange Suhadja",
+                "designation": "Cliente privado - Ámsterdam",
+                "review": "¡Mi experiencia con Florencia en Ámsterdam fue simplemente excepcional! Desde el momento en que nos conocimos, quedé impresionado por su calidez, profesionalismo y profundo conocimiento de la ciudad. Florencia no solo nos llevó a los lugares más emblemáticos de Ámsterdam. , también compartió historias fascinantes y detalles históricos que hicieron que cada momento fuera aún más memorable. Su pasión por el turismo y su compromiso con la excelencia se reflejaron en cada aspecto de nuestro recorrido."
+            }
+        }
+    },
+    "Faqs": {
+        "SectionHeading": {
+            "title": "Preguntas frecuentes",
+            "subtitle": "Encuentre respuestas a consultas comunes sobre arreglos de viaje, detalles de recorridos y recomendaciones de destinos."
+        },
+        "AnyQuestions": "¿Aún tienes alguna pregunta?",
+        "CollaborateTogether": "Contáctame para colaborar en la búsqueda conjunta de respuestas y soluciones.",
+        "ContactMe": "Contáctame",
+        "FaqsData":{
+            "firstFaq": {
+                "question": "¿Qué me diferencia como guía turístico?",
+                "answer": "Como guía turístico, lo que me distingue es mi enfoque personalizado y mi compromiso de crear experiencias auténticas y memorables para cada uno de mis clientes. No solo proporciono información detallada sobre los destinos que visitamos, sino que también me esfuerzo por conéctese con cada individuo, adaptando el recorrido en función de sus intereses y necesidades específicas."
+            },
+            "secondFaq": {
+                "question": "¿Qué tipo de tours o experiencias ofrezco?",
+                "answer": "Ofrezco una amplia gama de recorridos y experiencias diseñados para satisfacer los intereses y preferencias de diversos viajeros. Desde recorridos culturales que exploran la rica historia y el patrimonio de la región hasta emocionantes excursiones al aire libre que permiten a los visitantes disfrutar de la naturaleza en su máxima expresión, Mi objetivo es brindar opciones para todos los gustos, además ofrezco tours gastronómicos que permiten a los viajeros descubrir los sabores auténticos de la región y tours temáticos que exploran temas específicos como el arte urbano, la arquitectura o el folklore local. A pie, en bicicleta, en vehículo privado o de forma más aventurera, tengo opciones para satisfacer las necesidades de todos los viajeros y hacer que su experiencia sea inolvidable."
+            },
+            "thirdFaq": {
+                "question": "¿Cómo me preparo para cada tour?",
+                "answer": "Para cada tour, me sumerjo en una investigación exhaustiva para asegurarme de estar completamente preparado y poder ofrecer una experiencia excepcional a mis clientes. Esto implica estudiar la historia, la cultura y los puntos de interés del destino, así como Me mantengo al día con las últimas noticias y eventos locales relevantes. Planifico cuidadosamente la ruta del tour, seleccionando los lugares más destacados y diseñando un itinerario que maximice el tiempo de mis clientes y les brinde una visión completa del destino. Además, coordino cualquier logística necesaria, como transporte y reservas de entrada, para garantizar una experiencia fluida y fluida"
+        
+            },
+            "fourthFaq": {
+                "question": "¿Qué expectativa tengo de mis clientes al final de cada tour?",
+                "answer": "Al final de cada tour, mi principal expectativa es que mis clientes se vayan con una profunda satisfacción y enriquecimiento. Deseo que no solo hayan disfrutado de una experiencia memorable, sino que también hayas adquirido una comprensión más profunda y significativa del destino que estás buscando. He explorado. Aspiro a que mis clientes se sientan inspirados, emocionados y conectados con la cultura, la historia y la belleza del lugar que han visitado"
+            },
+            "fifthFaq": {
+                "question": "¿Cómo me mantengo actualizado con las tendencias y novedades de la industria turística?",
+                "answer": "Para estar al día con las tendencias y desarrollos en la industria del turismo, dedico regularmente tiempo a la investigación, el estudio y la participación en eventos relevantes, como la participación en conferencias y seminarios de turismo, para estar al tanto de las últimas tendencias y mejores prácticas. y novedades en la industria, lectura de libros, revistas y publicaciones especializadas en turismo para obtener información sobre nuevos destinos, actividades turísticas populares y cambios en las preferencias de los viajeros sumado al seguimiento de medios digitales como blogs, sitios web y redes sociales relacionados con el turismo a ser al tanto de noticias, eventos y opiniones de expertos en la industria."
+            }
+        }
+    },
+    "MilestoneHero": {
+        "header":"¡Bienvenido al mundo cautivador del guía de turismo!",
+        "title":"Soy Florencia Rueda Sánchez",
+        "description":"Apasionada por explorar y compartir experiencias únicas en cada rincón del mundo. Con un enfoque personalizado y profundo conocimiento local, te invito a sumergirte en auténticas aventuras y descubrir los tesoros escondidos de cada destino a través de mi trabajo en turismo. Juntos, creemos recuerdos inolvidables y conexiones significativas que vayan más allá de las experiencias de viaje tradicionales"
+    },
+    "MilestoneContainer": {
+        "SectionHeading": {
+            "title": "Hitos de mi carrera",
+            "subtitle": "Explora los aspectos más destacados de mi trayectoria profesional, mostrando logros significativos y experiencias enriquecedoras."
+        },
+        "TimelineData":{
+            "firstTimeline": {
+                "title": "Guía turística - Oslo, Noruega",
+                "duration": "2020 - Presente",
+                "description":"Planificación, organización de tours privados y visitas guiadas a los lugares destacados de la capital noruega como el Museo Folclórico, el Museo Vikingo y el Palacio Real de Oslo."
+            },
+            "secondTimeline": {
+                "title": "Guía Turística - Bus Buenos Aires",
+                "duration": "2015 - 2020",
+                "description":"Bus turístico que recorre los barrios más emblemáticos de la ciudad de Buenos Aires con vistas panorámicas para apreciar lugares históricos, espacios culturales y barrios únicos y llenos de cultura argentina."
+            },
+            "thirdTimeline": {
+                "title": "Guía Turística - Sturla Viajes",
+                "duration": "2013 - 2015",
+                "description":"Transporte fluvial de pasajeros en Delta. Coordinación, atención y administración de los sistemas operativos y de navegación satelital en las unidades, brindándonos información inmediata sobre la ubicación, velocidad e itinerario."
+            },
+            "fourthTimeline": {
+                "title": "Licenciatura en Turismo - Universidad de Morón",
+                "duration": "2010 - 2013",
+                "description":"Prácticas y prácticas profesionales aplicando conocimientos en entornos laborales reales y adquiriendo experiencia práctica en la industria turística."
+            }
+        }
+    },
+    "PortfolioSite": {
+        "title":"Sumérjase en experiencias únicas",
+        "description":"Embárcate en un viaje a través de mis experiencias como guía turístico. Desde las calles de las ciudades antiguas hasta los caminos menos transitados. Te invito a descubrir el mundo a través de mis ojos. Echa un vistazo a mi trabajo como guía y ¡Prepárate para vivir aventuras inolvidables!"
+    },
+    "PortfolioSection": {
+        "title":"Destinos guiados en mi carrera"
+    },
+    "ContactPage": {
+        "ContactHeader": {
+            "title":"Me encantaría saber de ti",
+            "description":"¡Hola! Me encantaría conocerte mejor. Así que no dudes en dejarme un mensaje, compartir tus ideas para conectarnos y explorar oportunidades. Me entusiasma saber más sobre ti y cómo podemos trabajar juntos para hacer cosas increíbles."
+        },
+        "ContactData": {
+            "emailData": {
+                "title":"Puedes enviarme un correo electrónico aquí",
+                "info":"florencia.rs@gmail.com"
+            },
+            "callData": {
+                "title":"Llámame",
+                "info":"+47 486 73497"
+            },
+            "locationData": {
+                "title":"Ubicación",
+                "info":"Oslo, Norway"
+            }
+        },
+        "SocialProfiles":" Mis pefiles en redes",
+        "Send":"Enviar"
+    }
+}
+

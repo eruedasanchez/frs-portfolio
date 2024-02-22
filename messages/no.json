@@ -1,0 +1,270 @@
+{
+    "LocaleLayout": {
+        "title": "Florencia Rueda Sanchez Portefølje | Hjem"
+    },
+    "NotFoundPage": {
+        "title": "Side ikke funnet",
+        "description": "Dobbeltsjekk adressefeltet i nettleseren eller bruk navigasjonen for å gå til en kjent side."
+    },
+    "Error": {
+        "title": "Noe gikk galt!",
+        "description": "<p>Vi har dessverre støtt på en feil.</p><p>Du kan prøve å <retry>laste inn siden på nytt</retry> du besøkte.</p>"
+    },
+    "Error-404": {
+        "title": "404 | Not Found",
+        "description": "Side ikke funnet"
+    },
+    "Header":{
+        "NavLinks": {
+            "firstLink": {
+                "label": "Hjem",
+                "url": "/"
+            },
+            "secondLink":{
+                "label": "Om",
+                "url": "/about"
+            },
+            "thirdLink":{
+                "label": "Portefølje",
+                "url": "/portfolio"
+            },
+            "fourthLink":{
+                "label": "Kontakt",
+                "url": "/contact"
+            }
+        },
+        "ContactMe":"Kontakt meg"
+    },
+    "Footer": {
+        "copyrightStart":"Copyright ©",
+        "copyrightEnd":"Florencia Rueda Sanchez. Alle rettigheter forbeholdt",
+        "location":"Oslo, Norge"
+    },
+    "Hero": {
+        "header":"Hei der!",
+        "title": "Florencia ønsker deg velkommen",
+        "description": "Som reiseleder går jeg lenger enn å peke ut attraksjoner, og inviterer reisende til å oppdage autentiske opplevelser. Min portefølje gjenspeiler en lidenskap for å fordype besøkende i kulturell rikdom. Den forteller unike historier, og tilbyr en inngangsport til eventyr med kuraterte detaljer, kulinariske anbefalinger og minneverdige lokale opplevelser, og skaper varige minner.",
+        "contact":"Kontakt nå",
+        "viewPortfolio":"se portefølje"
+    },
+    "Stats": {
+        "customers":"Fornøyde kunder",
+        "visited":"Besøkte land",
+        "experience":"Års erfaring"
+    },
+    "Skills": {
+        "SectionHeading": {
+            "title":"Kreative ferdigheter",
+            "subtitle":"Oppdag unike destinasjoner med en guide som vekker kreativitet og gir minneverdige opplevelser."
+        },
+        "skillsData": {
+            "firstSkill": {
+                "name": "Destinasjonskunnskap",
+                "description": "Inngående kunnskap om turiststeder, historie, kultur, gastronomi og andre relevante aspekter ved reisemålene du guider.",
+                "icon": "/service-1.svg"
+            },
+            "secondSkill": {
+                "name": "Kunnskap om reiselivsstandarder og regelverk",
+                "description": "Solid kunnskap om lokale reiselivsstandarder og forskrifter for å sikre overholdelse av lover og sikkerhetsstandarder",
+                "icon": "/service-2.svg"
+            },
+            "thirdSkill": {
+                "name": "Kommunikasjons ferdigheter",
+                "description": "Utmerket kommunikasjon, i stand til å formidle informasjon på en tydelig, interessant og engasjerende måte til mennesker fra ulike kulturer og bakgrunner.",
+                "icon": "/service-3.svg"
+            },
+            "fourthSkill": {
+                "name": "Turistfotografering",
+                "description": "Ferdigheter som innramming, komposisjon, lyshåndtering og grunnleggende teknisk kunnskap om fotografering for å få imponerende bilder som turister kan ta med seg som en suvenir av opplevelsen.",
+                "icon": "/service-4.svg"
+            },
+            "fifthSkill": {
+                "name": "Språk",
+                "description": "Ferdigheter på flere språk som spansk, engelsk, portugisisk og italiensk for å kommunisere med internasjonale turister.",
+                "icon": "/service-5.svg"
+            },
+            "sixthSkill": {
+                "name": "Orientering og navigasjon",
+                "description": "Sterke orienterings- og navigasjonsferdigheter for å guide turister trygt og effektivt gjennom ukjente destinasjoner.",
+                "icon": "/service-6.svg"
+            }
+        }
+    },
+    "Benefits": {
+        "SectionHeading": {
+            "title":"Fordeler",
+            "subtitle":"Ved å utnytte ekspertisen til en reiseleder låser du opp berikede opplevelser, skjulte perler og sømløse eventyr."
+        },
+        "benefitsData": {
+            "firstBenefit": {
+                "name": "Lokal kunnskap",
+                "description": "Jeg har dyp kunnskap om destinasjonene du besøkte. Jeg kan gi detaljert informasjon om lokal historie, kultur, mat og severdigheter som turister ellers kanskje ikke vet om."
+            },
+            "secondBenefit": {
+                "name": "Personlig tilpasset opplevelse",
+                "description": "Jeg kan tilpasse turene etter turistenes spesifikke interesser og behov. I tillegg tilbyr jeg personlige anbefalinger og forslag til hva du kan se og gjøre basert på individuelle interesser."
+            },
+            "thirdBenefit": {
+                "name": "Privilegert tilgang",
+                "description": "Jeg har privilegert tilgang til visse steder og aktiviteter som kanskje ikke er tilgjengelige for allmennheten. Dette kan inkludere tilgang til historiske steder, eksklusive arrangementer eller unike opplevelser som beriker turistens besøk."
+            },
+            "fourthBenefit": {
+                "name": "Mobiloptimalisert koding for utbredt tilgjengelighet",
+                "description": "I dagens mobildrevne landskap er et responsivt nettsted avgjørende. Jeg spesialiserer meg på koding av mobilvennlig design som sømløst tilpasser seg ulike enheter og skjermstørrelser. Nettstedet ditt vil opprettholde sitt utseende og funksjonalitet på tvers av stasjonære datamaskiner, smarttelefoner og nettbrett, slik at du kan nå ut til og engasjere publikum effektivt."
+            },
+            "fifthBenefit": {
+                "name": "Sikkerhet og komfort",
+                "description": "Gi et trygt og komfortabelt miljø for turister når de navigerer ukjente destinasjoner. De kjenner trygge områder og jeg hjelper dem med å unngå potensielt farlige situasjoner."
+            }
+        }
+    },
+    "Portfolio": {
+        "SectionHeading": {
+            "title":"Mine verker",
+            "subtitle":"Utforsk reisen min og oppdag destinasjonene jeg har hjulpet med å utforske og nyte."
+        },
+        "ViewPortfolio":"Se Min Portefølje",
+        "Titles": {
+            "firstTitle": { "name": "Buenos Aires Bus - BA" },
+            "secondTitle": { "name": "Sturla Viajes - BA" },
+            "thirdTitle": { "name": "Vinrute - Mendoza" },
+            "fourthTitle": { "name": "Circuito Chico - Bariloche" },
+            "fifthTitle": { "name": "Iguazu Falls - Misiones" },
+            "sixthTitle": { "name": "Purmamarca - Jujuy"}, 
+            "seventhTitle": { "name": "Perito Moreno Glacier - Santa Cruz"}, 
+            "eighthTitle": { "name": "Oslo by - Norge"},
+            "ninthTitle": { "name": "Amsterdam - Nederland"}
+        }
+    },
+    "Testimonials": {
+        "SectionHeading": {
+            "title": "Hva mine klienter sier om meg",
+            "subtitle": "Oppdag hva reisende har å si om sine opplevelser med mine reiseledertjenester."
+        },
+        "TestimonialsData":{
+            "firstTestimonial": {
+                "name": "Marcos Morales",
+                "designation": "Buenos Aires Buss - Partner",
+                "review": "Florencia er selve definisjonen av profesjonalitet og dedikasjon. Å jobbe med henne var en sann glede. Jeg vil ikke nøle med å anbefale Florencia som en kollega til alle som leter etter en eksepsjonell kollega i reiselivsnæringen."
+            },
+            "secondTestimonial": {
+                "name": "German Martinez",
+                "designation": "Buenos Aires Buss - Turist",
+                "review": "En utrolig opplevelse! Florencia har ikke bare en dyp kunnskap om historien og kulturen i regionen, men hun har også en smittende lidenskap for å dele den. Deres entusiasme gjorde hvert øyeblikk minneverdig. Deres levende historier og fascinerende anekdoter brakte stedene vi besøkte til livet. I tillegg fikk deres personlige oppmerksomhet og vennlighet oss til å føle at vi utforsket med en livslang venn."
+            },
+            "thirdTestimonial": {
+                "name": "Julieta Gonzalez",
+                "designation": "Sturla Viajes - Turist",
+                "review": "Florencia er ganske enkelt eksepsjonell i sin rolle som elveturismeguide i deltaet. Deres erfaring og dyktighet i å lede reisende gjennom kanaler og vannveier er virkelig fantastisk. Hvert øyeblikk av turen var fylt med fascinerende oppdagelser og spennende eventyr. En uforglemmelig opplevelse som jeg vil anbefale til alle som ønsker å utforske dette fantastiske området!"
+        
+            },
+            "fourthTestimonial": {
+                "name": "Romina Fernandez",
+                "designation": "Oslo Tourism - Partner",
+                "review": "Min dypeste takk til Florencia for hennes utrolige hjelp og veiledning under mine første opplevelser som reiseleder i Oslo, Norge. Deres ubetingede støtte og kunnskap var grunnleggende for min suksess. Hennes tålmodighet, vennlighet og engasjement er uvurderlig, og jeg er evig takknemlig for å ha fått muligheten til å lære av henne."
+            },
+            "fifthTestimonial": {
+                "name": "Solange Suhadja",
+                "designation": "Privatklient - Amsterdam",
+                "review": "Min erfaring med Florencia i Amsterdam var rett og slett eksepsjonell! Fra det øyeblikket vi møttes, ble jeg imponert over hennes varme, profesjonalitet og dype kunnskap om byen. Ikke bare tok Florencia oss til de mest ikoniske stedene i Amsterdam , hun delte også fascinerende historier og historiske detaljer som gjorde hvert øyeblikk enda mer minneverdig. Hans lidenskap for turisme og forpliktelse til fortreffelighet ble reflektert i alle aspekter av turen vår."
+            }
+        }
+    },
+    "Faqs": {
+        "SectionHeading": {
+            "title": "Ofte stilte spørsmål",
+            "subtitle": "Finn svar på vanlige spørsmål om reisearrangementer, turdetaljer og destinasjonsanbefalinger."
+        },
+        "AnyQuestions":"Har du fortsatt spørsmål?",
+        "CollaborateTogether":"Kontakt meg for å samarbeide om å finne svar og løsninger sammen.",
+        "ContactMe": "Kontakt meg",
+        "FaqsData":{
+            "firstFaq": {
+                "question": "Hva skiller meg ut som reiseleder?",
+                "answer": "Som reiseleder er det som skiller meg ut min personlige tilnærming og forpliktelse til å skape autentiske og minneverdige opplevelser for hver av mine klienter. Ikke bare gir jeg detaljert informasjon om destinasjonene vi besøker, men jeg streber også etter å kontakt med hver enkelt, skreddersy turen basert på deres spesifikke interesser og behov."
+            },
+            "secondFaq": {
+                "question": "Hvilken type turer eller opplevelser tilbyr jeg?",
+                "answer": "Jeg tilbyr et bredt spekter av turer og opplevelser designet for å møte interessene og preferansene til ulike reisende. Fra kulturelle turer som utforsker regionens rike historie og arv til spennende utendørs ekskursjoner som lar besøkende nyte naturen på sitt beste, Jeg tar sikte på å tilby alternativer for enhver smak. I tillegg tilbyr jeg matturer som lar reisende oppdage de autentiske smakene i regionen og tematurer som utforsker spesifikke emner som urban kunst, arkitektur eller lokal folklore. Enten du foretrekker å utforske på til fots, på sykkel, med privat kjøretøy eller mer eventyrlystent, jeg har muligheter for å møte behovene til alle reisende og gjøre opplevelsen din uforglemmelig."
+            },
+            "thirdFaq": {
+                "question": "Hvordan forbereder jeg meg til hver tur?",
+                "answer": "For hver tur fordyper jeg meg i omfattende forskning for å sikre at jeg er fullt forberedt og kan levere en eksepsjonell opplevelse til kundene mine. Dette innebærer å studere historien, kulturen og interessepunktene til destinasjonen, samt holde meg oppdatert med de siste nyhetene og relevante lokale hendelser. Jeg planlegger turruten nøye, velger de mest bemerkelsesverdige stedene og designer en reiserute som maksimerer kundenes tid og gir dem en fullstendig oversikt over destinasjonen. I tillegg koordinerer jeg evt. nødvendig logistikk, som transport og inngangsreservasjoner, for å sikre en jevn og sømløs opplevelse."
+        
+            },
+            "fourthFaq": {
+                "question": "Hvilke forventninger har jeg til kundene mine på slutten av hver tur?",
+                "answer": "På slutten av hver tur er hovedforventningen min at kundene mine drar med dyp tilfredshet og berikelse. Jeg skulle ønske at du ikke bare hadde en minneverdig opplevelse, men at du også fikk en dypere og mer meningsfull forståelse av destinasjonen du har utforsket. Jeg håper at kundene mine skal føle seg inspirert, begeistret og koblet til kulturen, historien og skjønnheten til stedet de har besøkt."
+            },
+            "fifthFaq": {
+                "question": "Hvordan holder jeg meg oppdatert med trender og nyheter i reiselivsnæringen?",
+                "answer": "For å holde meg oppdatert med trender og utviklinger i reiselivsnæringen, dedikerer jeg jevnlig tid til forskning, studier og deltakelse i relevante arrangementer som deltakelse på reiselivskonferanser og seminarer for å holde meg oppdatert på de siste trendene, beste praksis og utviklingen i bransjen, lese bøker, magasiner og spesialiserte publikasjoner om turisme for å få informasjon om nye destinasjoner, populære turistaktiviteter og endringer i reisendes preferanser lagt til overvåking av digitale medier som blogger, nettsteder og sosiale nettverk relatert til turisme. klar over nyheter, hendelser og meninger fra eksperter i bransjen."
+            }
+        }
+    },
+    "MilestoneHero": {
+        "header":"Velkommen til en verden av fengslende turistguider!",
+        "title":"Jeg er Florencia Rueda Sanchez",
+        "description":"Lienskapelig opptatt av å utforske og dele unike opplevelser i hvert hjørne av verden. Med en personlig tilnærming og dyp lokalkunnskap inviterer jeg deg til å fordype deg i autentiske eventyr og avdekke de skjulte skattene til hver destinasjon gjennom mitt arbeid innen turisme . La oss sammen skape uforglemmelige minner og meningsfulle forbindelser som går utover tradisjonelle reiseopplevelser."
+    },
+    "MilestoneContainer": {
+        "SectionHeading": {
+            "title": "Milepæl i min karriere",
+            "subtitle": "Utforsk høydepunktene på min profesjonelle reise, og vis frem betydelige prestasjoner og berikende opplevelser."
+        },
+        "TimelineData":{
+            "firstTimeline": {
+                "title": "Turistguide - Oslo, Norge",
+                "duration": "2020 - nåtid",
+                "description":"Planlegging, organisering av private turer og guidede besøk til de kjente stedene i den norske hovedstaden som Folkemuseet, Vikingmuseet og Slottet i Oslo."
+            },
+            "secondTimeline": {
+                "title": "Turistguide - Buenos Aires buss",
+                "duration": "2015 - 2020",
+                "description":"Turistbuss som kjører gjennom de mest emblematiske nabolagene i byen Buenos Aires med panoramautsikt for å sette pris på historiske steder, kulturelle rom og unike nabolag fulle av argentinsk kultur."
+            },
+            "thirdTimeline": {
+                "title": "Turistguide - Sturla Viajes",
+                "duration": "2013 - 2015",
+                "description":"Elvepassasjertransport i Delta. Koordinering, oppmerksomhet og administrasjon av operasjonelle og satellittnavigasjonssystemer i enhetene, gir oss umiddelbar informasjon om plassering, hastighet og reiserute."
+            },
+            "fourthTimeline": {
+                "title": "Grad i turisme - University of Moron",
+                "duration": "2010 - 2013",
+                "description":"Praksis og profesjonell praksis som anvender kunnskap i virkelige arbeidsmiljøer og tilegner seg praktisk erfaring i reiselivsnæringen."
+            }
+        }
+    },
+    "PortfolioSite": {
+        "title":"Fordyp deg i unike opplevelser",
+        "description":"Legg ut på en reise gjennom mine opplevelser som reiseleder. Fra gatene i gamle byer til stiene som er mindre reiste. Jeg inviterer deg til å oppdage verden gjennom mine øyne. Ta en titt på arbeidet mitt som guide og gjør deg klar til å leve uforglemmelige eventyr!"
+    },
+    "PortfolioSection": {
+        "title":"Guidede reisemål i min karriere"
+    },
+    "ContactPage": {
+        "ContactHeader": {
+            "title":"Jeg vil gjerne høre fra deg",
+            "description":"Hei! Jeg vil gjerne bli bedre kjent med deg. Så ikke nøl med å legge igjen en melding, dele ideene dine for å koble til og utforske muligheter. Jeg er spent på å lære mer om deg og hvordan vi kan jobbe sammen for å gjøre fantastiske ting."
+        },
+        "ContactData": {
+            "emailData": {
+                "title":"Du kan sende meg en e-post her",
+                "info":"florencia.rs@gmail.com"
+            },
+            "callData": {
+                "title":"Ring meg",
+                "info":"+47 486 73497"
+            },
+            "locationData": {
+                "title":"Plassering",
+                "info":"Oslo, Norge"
+            }
+        },
+        "SocialProfiles":"Mine sosiale profiler",
+        "Send":"Send"
+    }
+}
+
+
+

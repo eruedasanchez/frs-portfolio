@@ -1,0 +1,296 @@
+{
+    "LocaleLayout": {
+        "title": "Florencia Rueda Sanchez Portfolio | Home"
+    },
+    "NotFoundPage": {
+        "title": "Page not found",
+        "description": "Please double-check the browser address bar or use the navigation to go to a known page."
+    },
+    "Error": {
+        "title": "Something went wrong!",
+        "description": "<p>We've unfortunately encountered an error.</p><p>You can try to <retry>reload the page</retry> you were visiting.</p>"
+    },
+    "Error-404": {
+        "title": "404 | Not Found",
+        "description": "Page not found"
+    },
+    "Header": {
+        "NavLinks": {
+            "firstLink": {
+                "label": "Home",
+                "url": "/"
+            },
+            "secondLink":{
+                "label": "About",
+                "url": "/about"
+            },
+            "thirdLink":{
+                "label": "Portfolio",
+                "url": "/portfolio"
+            },
+            "fourthLink":{
+                "label": "Contact",
+                "url": "/contact"
+            }
+        },
+        "ContactMe":"Contact me"
+    },
+    "Footer": {
+        "copyrightStart":"Copyright ©",
+        "copyrightEnd":"Florencia Rueda Sanchez. All rights reseved",
+        "location":"Oslo, Norway"
+    },
+    "Hero": {
+        "header":"Hello There!",
+        "title": "Florencia welcome's you",
+        "description": "As a tour guide, I go beyond pointing out attractions, inviting travelers to discover authentic experiences. My portfolio reflects a passion for immersing visitors in cultural richness. It tells unique stories, offering a gateway to adventure with curated details, culinary recommendations, and memorable local experiences, creating lasting memories.",
+        "contact":"Contact Now",
+        "viewPortfolio":"View Portfolio"
+    },
+    "Stats": {
+        "customers":"Happy Customers",
+        "visited":"Countries Visited",
+        "experience":"Years of Experience"
+    },
+    "Skills": {
+        "SectionHeading": {
+            "title":"Creative Skills",
+            "subtitle":"Discover unique destinations with a guide that sparks creativity and offers memorable experiences."
+        },
+        "skillsData": {
+            "firstSkill": {
+                "name": "Destination Knowledge",
+                "description": "In-depth knowledge about tourist places, history, culture, gastronomy and other relevant aspects of the destinations you guide.",
+                "icon": "/service-1.svg"
+            },
+            "secondSkill": {
+                "name": "Knowledge of tourism standards and regulations",
+                "description": "Solid knowledge of local tourism standards and regulations to ensure compliance with laws and safety standards.",
+                "icon": "/service-2.svg"
+            },
+            "thirdSkill": {
+                "name": "Communication Skills",
+                "description": "Excellent communication, able to convey information in a clear, interesting and engaging way to people from different cultures and backgrounds.",
+                "icon": "/service-3.svg"
+            },
+            "fourthSkill": {
+                "name": "Tourist photography",
+                "description": "Skills such as framing, composition, light management and basic technical knowledge of photography to obtain impressive images that tourists can take with them as a souvenir of their experience.",
+                "icon": "/service-4.svg"
+            },
+            "fifthSkill": {
+                "name": "Languages",
+                "description": "Skills in several languages such as Spanish, English, Portuguese and Italian to communicate with international tourists.",
+                "icon": "/service-5.svg"
+            },
+            "sixthSkill": {
+                "name": "Orienteering and Navigation",
+                "description": "Strong orientation and navigation skills to guide tourists safely and efficiently through unfamiliar destinations.",
+                "icon": "/service-6.svg"
+            }
+        }
+    },
+    "Benefits": {
+        "SectionHeading": {
+            "title":"Benefits",
+            "subtitle":"Tapping into the expertise of a tour guide unlocks enriched experiences, hidden gems, and seamless adventures."
+        },
+        "benefitsData": {
+            "firstBenefit": {
+                "name": "Local knowledge",
+                "description": "I have deep knowledge about the destinations you visited. I can provide detailed information about local history, culture, cuisine and points of interest that tourists may not otherwise know about."
+            },
+            "secondBenefit": {
+                "name": "Personalized experience",
+                "description": "I can adapt the tours according to the specific interests and needs of tourists. Additionally, I offer personalized recommendations and suggestions on what to see and do based on individual interests."
+            },
+            "thirdBenefit": {
+                "name": "Privileged access",
+                "description": "I have privileged access to certain places and activities that may not be available to the general public. This may include access to historical sites, exclusive events or unique experiences that enrich the tourist's visit."
+            },
+            "fourthBenefit": {
+                "name": "Mobile-Optimized Coding for Widespread Accessibility",
+                "description": "In today's mobile-driven landscape, a responsive website is essential. I specialize in coding mobile-friendly designs that seamlessly adapt to various devices and screen sizes. Your website will maintain its appearance and functionality across desktops, smartphones, and tablets, allowing you to reach and engage your audience effectively."
+            },
+            "fifthBenefit": {
+                "name": "Safety and Comfort",
+                "description": "Provide a safe and comfortable environment for tourists when navigating unknown destinations. They know safe areas and I help them avoid potentially dangerous situations."
+            }
+        }
+    },
+    "Portfolio": {
+        "SectionHeading": {
+            "title": "My works",
+            "subtitle": "Explore my journey and discover the destinations I've helped explore and enjoy."
+        },
+        "ViewPortfolio": "View My Portfolio",
+        "Titles": {
+            "firstTitle": { "name": "Buenos Aires Bus - BA" },
+            "secondTitle": { "name": "Sturla Viajes - BA" },
+            "thirdTitle": { "name": "Wine Route - Mendoza" },
+            "fourthTitle": { "name": "Circuito Chico - Bariloche" },
+            "fifthTitle": { "name": "Iguazu Falls - Misiones" },
+            "sixthTitle": { "name": "Purmamarca - Jujuy"}, 
+            "seventhTitle": { "name": "Perito Moreno Glacier - Santa Cruz"}, 
+            "eighthTitle": { "name": "City of Oslo - Norway"},
+            "ninthTitle": { "name": "Amsterdam -  Netherlands"}
+
+
+
+        }
+    },
+    "Testimonials": {
+        "SectionHeading": {
+            "title": "What my clients say about me",
+            "subtitle": "Discover what travelers have to say about their experiences with my tour guide services."
+        },
+        "TestimonialsData":{
+            "firstTestimonial": {
+                "name": "Marcos Morales",
+                "designation": "Buenos Aires Bus - Partner",
+                "review": "Florencia is the very definition of professionalism and dedication. Working with her was a real pleasure. I would not hesitate to recommend Florencia as a colleague to anyone looking for an exceptional coworker in the tourism industry."
+            },
+            "secondTestimonial": {
+                "name": "German Martinez",
+                "designation": "Buenos Aires Bus - Tourist",
+                "review": "An incredible experience! Florencia not only has a deep knowledge of the history and culture of the region, but she also has an infectious passion for sharing it. Their enthusiasm made every moment memorable. Their vivid stories and fascinating anecdotes brought the places we visited to life. Plus, their personalized attention and kindness made us feel like we were exploring with a lifelong friend."
+            },
+            "thirdTestimonial": {
+                "name": "Julieta Gonzalez",
+                "designation": "Sturla Viajes - Tourist",
+                "review": "Florencia is simply exceptional in her role as a river tourism guide in the delta. Their experience and skill in leading travelers through canals and waterways is truly amazing. Every moment of the trip was filled with fascinating discoveries and exciting adventures. An unforgettable experience that I would recommend to anyone wishing to explore this wonderful area!"
+        
+            },
+            "fourthTestimonial": {
+                "name": "Romina Fernandez",
+                "designation": "Oslo Tourism - Partner",
+                "review": "My deepest gratitude to Florencia for her incredible help and guidance during my first experiences as a tour guide in Oslo, Norway. Their unconditional support and knowledge were fundamental to my success. Her patience, kindness, and dedication are invaluable, and I am eternally grateful to have had the opportunity to learn from her."
+            },
+            "fifthTestimonial": {
+                "name": "Solange Suhadja",
+                "designation": "Private Client - Amsterdam",
+                "review": "My experience with Florencia in Amsterdam was simply exceptional! From the moment we met, I was impressed by her warmth, professionalism, and deep knowledge of the city. Not only did Florencia take us to the most iconic places in Amsterdam, she also shared fascinating stories and historical details that made every moment even more memorable. His passion for tourism and commitment to excellence were reflected in every aspect of our tour."
+            }
+        }
+    },
+    "Faqs": {
+        "SectionHeading": {
+            "title": "Frequently Asked Questions",
+            "subtitle": "Find answers to common inquiries about travel arrangements, tour details, and destination recommendations."
+        },
+        "AnyQuestions":"Still have any questions?",
+        "CollaborateTogether":"Contact me to collaborate on finding answers and solutions together.",
+        "ContactMe": "Contact Me",
+        "FaqsData":{
+            "firstFaq": {
+                "question": "What sets me apart as a tour guide?",
+                "answer": "As a tour guide, what sets me apart is my personalized approach and commitment to creating authentic and memorable experiences for each of my clients. Not only do I provide detailed information about the destinations we visit, but I also strive to connect with each individual, tailoring the tour based on their specific interests and needs."
+            },
+            "secondFaq": {
+                "question": "What type of tours or experiences do I offer?",
+                "answer": "I offer a wide range of tours and experiences designed to meet the interests and preferences of diverse travelers. From cultural tours that explore the region's rich history and heritage to exciting outdoor excursions that allow visitors to enjoy nature at its best, I aim to provide options to suit all tastes. Additionally, I offer food tours that allow travelers to discover the authentic flavors of the region and themed tours that explore specific topics such as urban art, architecture or local folklore. Whether you prefer to explore on foot, by bicycle, by private vehicle or more adventurously, I have options to meet the needs of all travelers and make your experience unforgettable."
+            },
+            "thirdFaq": {
+                "question": "How do I prepare for each tour?",
+                "answer": "For each tour, I immerse myself in extensive research to ensure that I am fully prepared and can deliver an exceptional experience to my clients. This involves studying the history, culture and points of interest of the destination, as well as staying up to date with the latest news and relevant local events. I carefully plan the tour route, selecting the most notable locations and designing an itinerary that maximizes my clients' time and gives them a complete view of the destination. Additionally, I coordinate any necessary logistics, such as transportation and entry reservations, to ensure a smooth and seamless experience."
+        
+            },
+            "fourthFaq": {
+                "question": "What expectation do I have for my clients at the end of each tour?",
+                "answer": "At the end of each tour, my main expectation is that my clients leave with deep satisfaction and enrichment. I wish that you not only enjoyed a memorable experience, but also gained a deeper and more meaningful understanding of the destination you have explored. I aspire for my clients to feel inspired, excited and connected to the culture, history and beauty of the place they have visited."
+            },
+            "fifthFaq": {
+                "question": "How do I stay up to date with trends and news in the tourism industry?",
+                "answer": "To stay up to date with trends and developments in the tourism industry, I regularly dedicate time to research, study and participation in relevant events such as participation in tourism conferences and seminars to stay abreast of the latest trends, best practices and developments. in the industry, reading books, magazines and specialized publications on tourism to obtain information about new destinations, popular tourist activities and changes in traveler preferences added to the monitoring digital media such as blogs, websites and social networks related to tourism to be aware of news, events and opinions of experts in the industry."
+            }
+        }
+    },
+    "MilestoneHero": {
+        "header":"Welcome to the world of captivating Tourist Guide!",
+        "title":"I'm Florencia Rueda Sanchez",
+        "description":"Passionate about exploring and sharing unique experiences in every corner of the world. With a personalized approach and deep local knowledge, I invite you to immerse yourself in authentic adventures and uncover the hidden treasures of each destination through my work in tourism. Together, let&apos;s create unforgettable memories and meaningful connections that go beyond traditional travel experiences."
+    },
+    "MilestoneContainer": {
+        "SectionHeading": {
+            "title": "Milestone of my career",
+            "subtitle": "Explore the highlights of my professional journey, showcasing significant achievements and enriching experiences."
+        },
+        "TimelineData":{
+            "firstTimeline": {
+                "title": "Tourist Guide - Oslo, Norway",
+                "duration": "2020 - Present",
+                "description":"Planning, organization of private tours and guided visits to the notable places of the Norwegian capital such as the Folk Museum, the Viking Museum and the Royal Palace of Oslo."
+            },
+            "secondTimeline": {
+                "title": "Tourist Guide - Buenos Aires Bus",
+                "duration": "2015 - 2020",
+                "description":"Tourist bus that runs through the most emblematic neighborhoods of the city of Buenos Aires with panoramic views to appreciate historical places, cultural spaces and unique neighborhoods full of Argentine culture."
+            },
+            "thirdTimeline": {
+                "title": "Tourist Guide - Sturla Viajes",
+                "duration": "2013 - 2015",
+                "description":"River passenger transportation in Delta. Coordination, attention and administration of operational and satellite navigation systems in the units, providing us with immediate information about the location, speed and itinerary."
+            },
+            "fourthTimeline": {
+                "title": "Degree in Tourism - University of Moron",
+                "duration": "2010 - 2013",
+                "description":"Internships and professional practices applying knowledge in real work environments and acquiring practical experience in the tourism industry."
+            }
+        }
+    },
+    "PortfolioSite": {
+        "title":"Immerse yourself in unique experiences",
+        "description":"Embark on a journey through my experiences as a tour guide. From the streets of ancient cities to the paths less traveled. I invite you to discover the world through my eyes. Take a look at my work as a guide and get ready to live unforgettable adventures!"
+    },
+    "PortfolioSection": {
+        "title":"Guided destinations in my career"
+    },
+    "ContactPage": {
+        "ContactHeader": {
+            "title":"I'd love to hear from you",
+            "description":"Hello! I would love to get to know you better. So please don't hesitate to leave me a message, share your ideas to connect and explore opportunities. I'm excited to learn more about you and how we can work together to do amazing things."
+        },
+        "ContactData": {
+            "emailData": {
+                "title":"You can email me here",
+                "info":"florencia.rs@gmail.com"
+            },
+            "callData": {
+                "title":"Gime me a call",
+                "info":"+47 486 73497"
+            },
+            "locationData": {
+                "title":"Location",
+                "info":"Oslo, Norway"
+            }
+        },
+        "SocialProfiles":" My Social Profiles",
+        "Send":"Send"
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
