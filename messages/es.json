@@ -1,6 +1,15 @@
 {
     "LocaleLayout": {
-        "title": "Florencia Rueda Sanchez Portafolio | Inicio"
+        "title": "Mi portfolio | Inicio"
+    },
+    "AboutPage": {
+        "title": "Mi portfolio | Acerca"
+    },
+    "PortfolioPage": {
+        "title": "Mi portfolio | Portfolio"
+    },
+    "ContactPageLayout": {
+        "title": "Mi portfolio | Contacto"
     },
     "NotFoundPage": {
         "title": "Pagina no encontrada",

@@ -1,11 +1,13 @@
-import { unstable_setRequestLocale } from "next-intl/server";
+import { getTranslations, unstable_setRequestLocale } from "next-intl/server";
 import ContactContainer from "@/components/ContactContainer";
 
-// import { Metadata } from "next";
-
-// export const metadata: Metadata = {
-//     title: 'About | Florencia Rueda Sanchez'
-// };
+export async function generateMetadata({ params: {locale} } : Omit<Props, 'children'>) {
+    const t = await getTranslations({locale, namespace: 'ContactPageLayout'});
+    
+    return {
+        title: t('title')
+    };
+}
 
 type Props = { params: {locale: string}; };
 

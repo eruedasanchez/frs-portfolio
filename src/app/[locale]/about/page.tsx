@@ -1,6 +1,7 @@
+import { getTranslations, unstable_setRequestLocale } from "next-intl/server";
 import MilestoneContainer from "@/components/MilestoneContainer";
 import MilestoneHero from "@/components/MilestoneHero";
-import { unstable_setRequestLocale } from "next-intl/server";
+
 // import { Metadata } from "next";
 
 // export const metadata: Metadata = {
@@ -8,6 +9,14 @@ import { unstable_setRequestLocale } from "next-intl/server";
 // };
 
 type Props = { params: {locale: string}; };
+
+export async function generateMetadata({ params: {locale} } : Omit<Props, 'children'>) {
+    const t = await getTranslations({locale, namespace: 'AboutPage'});
+    
+    return {
+        title: t('title')
+    };
+}
 
 const AboutPage = ({params: {locale}}: Props) => {
     // Enable static rendering

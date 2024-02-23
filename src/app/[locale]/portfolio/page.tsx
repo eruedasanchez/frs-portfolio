@@ -1,16 +1,18 @@
-import { unstable_setRequestLocale } from "next-intl/server";
+import { getTranslations, unstable_setRequestLocale } from "next-intl/server";
 import { useTranslations } from "next-intl";
 import { portfolios } from "@/constants/constants";
 import PortfolioSite from "@/components/PortfolioSite";
 import PortfolioSection from "@/components/PortfolioSection";
 
-// import { Metadata } from "next";
-
-// export const metadata: Metadata = {
-//     title: 'About | Florencia Rueda Sanchez'
-// };
-
 type Props = { params: {locale: string}; };
+
+export async function generateMetadata({ params: {locale} } : Omit<Props, 'children'>) {
+    const t = await getTranslations({locale, namespace: 'PortfolioPage'});
+    
+    return {
+        title: t('title')
+    };
+}
 
 const PortfolioPage = ({params: {locale}}: Props) => {
     // Enable static rendering

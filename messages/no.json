@@ -1,6 +1,15 @@
 {
     "LocaleLayout": {
-        "title": "Florencia Rueda Sanchez Portefølje | Hjem"
+        "title": "Min portefølje | Hjem"
+    },
+    "AboutPage": {
+        "title": "Min portefølje | Om"
+    },
+    "PortfolioPage": {
+        "title": "Min portefølje | Portefølje"
+    },
+    "ContactPageLayout": {
+        "title": "Min portefølje | Kontakt"
     },
     "NotFoundPage": {
         "title": "Side ikke funnet",
