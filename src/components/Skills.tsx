@@ -1,9 +1,8 @@
 'use client';
 
-import { useEffect, useRef } from "react";
 import Image from "next/image";
+import { useEffect, useRef } from "react";
 import { Lora } from "next/font/google";
-import { skills } from "@/constants/constants";
 import { SkillsProps } from "@/types/types";
 
 const lora = Lora({ subsets: ["latin"] });

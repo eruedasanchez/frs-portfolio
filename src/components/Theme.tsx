@@ -15,7 +15,6 @@ const Theme = ({ containerStyles, iconStyles } : ThemeProps) => {
 
     if(!mounted) return null;
     
-
     return (
         <>
             {

@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { PortfolioThumbnailsProps } from "@/types/types";
 
-const PortfolioThumbnails = ({currentImg, portfolio, setCurrentImg } : PortfolioThumbnailsProps) => {
+const PortfolioThumbnails = ({ currentImg, portfolio, setCurrentImg } : PortfolioThumbnailsProps) => {
     return (
         <div className="grid grid-cols-3 gap-3">
             {

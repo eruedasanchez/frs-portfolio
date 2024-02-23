@@ -2,12 +2,11 @@
 
 import { useEffect, useRef } from "react";
 import { Lora } from "next/font/google";
-import { benefits } from "@/constants/constants";
 import { BenefitsListProps } from "@/types/types";
 
 const lora = Lora({ subsets: ["latin"] });
 
-const BenefitsList = ({containedStyles, from, to, benefitsData} : BenefitsListProps) => {
+const BenefitsList = ({ containedStyles, from, to, benefitsData } : BenefitsListProps) => {
     const benefitsRefs = useRef<(HTMLDivElement | null)[]>([]);
     
     useEffect(() => {
@@ -33,8 +32,7 @@ const BenefitsList = ({containedStyles, from, to, benefitsData} : BenefitsListPr
         benefitsRefs.current.forEach(benefitRef => {
             if (benefitRef) observer.observe(benefitRef);
         });
-
-        // Limpiar el observador cuando el componente se desmonte
+        
         return () => {
             currentRefs.forEach(benefitRef => {
                 if (benefitRef) observer.unobserve(benefitRef);

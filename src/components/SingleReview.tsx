@@ -2,7 +2,7 @@ import Link from "next/link";
 import { Star } from "lucide-react";
 import { SingleReviewProps } from "@/types/types";
 
-const SingleReview = ({testimonial, review} : SingleReviewProps) => {
+const SingleReview = ({ testimonial, review } : SingleReviewProps) => {
     return (
         <div className="box flex flex-col gap-5">
             <div className="flex items-center justify-between">

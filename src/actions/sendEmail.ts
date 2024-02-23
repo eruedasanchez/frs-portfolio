@@ -42,7 +42,3 @@ export const sendEmail = async (formData: FormData) => {
         // <ContactFormEmail message={message} senderEmail={senderEmail}/>
     });
 };
-
-
-// // text: message as string,
-

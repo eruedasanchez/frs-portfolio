@@ -6,9 +6,7 @@ import PortfolioContainer from '@/components/PortfolioContainer';
 import SkillsContainer from '@/components/SkillsContainer';
 import TestimonialsContainer from '@/components/TestimonialsContainer';
 
-type Props = {
-    params: {locale: string};
-};
+type Props = { params: {locale: string}; };
 
 export default function HomePage({params: {locale}}: Props) {
     // Enable static rendering

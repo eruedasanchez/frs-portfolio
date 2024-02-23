@@ -3,21 +3,17 @@
 import Link from "next/link";
 import { useCallback, useEffect, useState } from "react";
 import { Menu, X } from "lucide-react";
-import { keys, socialLinks } from "@/constants/constants";
 import { Lora } from "next/font/google";
+import { keys, socialLinks } from "@/constants/constants";
 import Navbar from "./Navbar";
 import Logo from "./Logo";
 import Theme from "./Theme";
 import LanguageDropdownMenu from "./LanguageDropdownMenu";
+import { MobileMenuProps } from "@/types/types";
 
 const lora = Lora({ subsets: ["latin"] });
 
-interface MobileMenuProps {
-    navLinks: { label: string; url: string }[]
-    contactMe: string
-}
-
-const MobileMenu = ({navLinks, contactMe} : MobileMenuProps) => {
+const MobileMenu = ({ navLinks, contactMe } : MobileMenuProps) => {
     const [isOpen, setIsOpen] = useState(false);
     
     const toogleMenu = () => setIsOpen(!isOpen);
@@ -32,8 +28,6 @@ const MobileMenu = ({navLinks, contactMe} : MobileMenuProps) => {
             document.removeEventListener('keydown', handleKeyDown);
         };
     }, [handleKeyDown]);
-
-
     
     return (
         <div className="tablet:hidden">

@@ -5,7 +5,7 @@ import { PortfolioProps } from "@/types/types";
 import PortfolioCenter from "./PortfolioCenter";
 import PortfolioThumbnails from "./PortfolioThumbnails";
 
-const PortfolioItem = ({key, portfolio, portfolioTitle} : PortfolioProps) => {
+const PortfolioItem = ({ key, portfolio, portfolioTitle } : PortfolioProps) => {
     const [currentImg, setCurrentImg] = useState(portfolio.images[0]);
 
     return (

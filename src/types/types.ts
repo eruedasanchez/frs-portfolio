@@ -2,6 +2,25 @@ import { LucideIcon } from "lucide-react";
 import React from "react";
 import { string } from "zod";
 
+/*-----------------------------*\
+    #HEADER TYPES & INTERFACES
+\*-----------------------------*/
+
+type NavLink = {
+    label: string;
+    url: string; 
+};
+
+export interface NavbarProps{
+    navStyles: string, 
+    ulStyles: string,
+    showTheme: boolean,
+    toogleMenu?: () => void,
+    showLanguageMenu: boolean,
+    navLinks: NavLink[],
+    contactMe: string
+}  
+
 export interface NavLinksProps{
     index?: number,
     href: string,
@@ -10,16 +29,28 @@ export interface NavLinksProps{
     toogleMenu?: () => void 
 }
 
-export interface NavbarProps{
-    navStyles: string, 
-    ulStyles: string,
-    showTheme: boolean,
-    toogleMenu?: () => void,
-    showLanguageMenu: boolean,
-    navLinks: { label: string; url: string }[],
-    contactMe: string
-}  
+export interface LanguageDropdownMenuProps{
+    containerStyles: string, 
+    iconStyles: string
+}
 
+export interface ThemeProps{
+    containerStyles: string, 
+    iconStyles: string
+}
+
+export interface MobileMenuProps {
+    navLinks: NavLink[],
+    contactMe: string
+}
+
+/*-----------------------------*\
+    "/" TYPES & INTERFACES
+\*-----------------------------*/
+
+/*-----------------*\
+    #HERO SECTION
+\*-----------------*/
 
 export interface HeroProps{
     header: string, 
@@ -28,6 +59,24 @@ export interface HeroProps{
     contact: string, 
     viewPortfolio: string,
 } 
+
+
+export interface StatsProps{
+    containedStyles: string, 
+    statsDetailStyles?: string, 
+    isPortfolio?: boolean
+}
+
+export interface StatsDetailProps{
+    quantity: number,
+    title: string,
+    statsDetailStyles?: string 
+    isPortfolio?: boolean
+}
+
+/*-------------------*\
+    #SKILLS SECTION
+\*-------------------*/
 
 export interface SectionHeadingProps{
     title: string,
@@ -38,7 +87,11 @@ export interface SkillsProps{
     skillsData: { name: string; description: string;  icon: string }[] 
 }
 
-export type BenefitsData = {
+/*---------------------*\
+    #BENEFITS SECTION
+\*---------------------*/
+
+type BenefitsData = {
     name: string;
     description: string;
 }[];
@@ -54,17 +107,21 @@ export interface BenefitsListProps{
     benefitsData: BenefitsData
 }
 
+/*---------------------*\
+    #PORTFOLIO SECTION
+\*---------------------*/
+
+type PortfolioTitle = { name: string; };
+
+export interface PortfolioTitlesProps{
+    portfolioTitles: PortfolioTitle[] 
+}
+
 export interface Portfolio{
     id: number,
     title:  string,
     link: string,
     images: string[]
-}
-
-export type PortfolioTitle = { name: string; };
-
-export interface PortfolioTitlesProps{
-    portfolioTitles: PortfolioTitle[] 
 }
 
 export interface PortfolioProps{
@@ -92,13 +149,11 @@ export interface LightboxProps{
     handleNextImage: (portfolio: Portfolio, currentImg: string, setCurrentImg: React.Dispatch<React.SetStateAction<string>>) => void
 }
 
-export interface SocialLink{
-    id: number,
-    icon: LucideIcon,
-    url: string
-}
+/*------------------------*\
+    #TESTIMONIALS SECTION
+\*------------------------*/
 
-export type Testimonial = {
+type Testimonial = {
     name: string;
     designation: string; 
     review: string
@@ -106,6 +161,12 @@ export type Testimonial = {
 
 export interface TestimonialsProps{
     testimonialsData: Testimonial[] 
+}
+
+export interface SocialLink{
+    id: number,
+    icon: LucideIcon,
+    url: string
 }
 
 export interface Review{
@@ -119,7 +180,11 @@ export interface SingleReviewProps{
     review: Review
 }
 
-export type Faq = {
+/*-----------------*\
+    #FAQS SECTION
+\*-----------------*/
+
+type Faq = {
     question: string;
     answer: string; 
 };
@@ -135,18 +200,14 @@ export interface AccordionProps{
     faqsData: Faq[] 
 }
 
-export interface StatsProps{
-    containedStyles: string, 
-    statsDetailStyles?: string, 
-    isPortfolio?: boolean
-}
 
-export interface StatsDetailProps{
-    quantity: number,
-    title: string,
-    statsDetailStyles?: string 
-    isPortfolio?: boolean
-}
+
+
+
+
+
+
+
 
 export interface PortfolioSectionProps{
     data: Portfolio[], 
@@ -183,16 +244,6 @@ export interface ContactFormProps {
 
 export interface ContactDetailProps{
     info: ContactInfo
-}
-
-export interface ThemeProps{
-    containerStyles: string, 
-    iconStyles: string
-}
-
-export interface LanguageDropdownMenuProps{
-    containerStyles: string, 
-    iconStyles: string
 }
 
 

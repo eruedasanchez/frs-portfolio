@@ -1,13 +1,12 @@
 import Link from "next/link";
 import { ArrowRight, Star } from "lucide-react";
-// import { faqs } from "@/constants/constants";
-import Accordion from "./Accordion";
 import { Lora } from "next/font/google";
 import { FaqsProps } from "@/types/types";
+import Accordion from "./Accordion";
 
 const lora = Lora({ subsets: ["latin"] });
 
-const Faqs = ({faqsData, anyQuestions, collaborateTogether, contactMe } : FaqsProps) => {
+const Faqs = ({ faqsData, anyQuestions, collaborateTogether, contactMe } : FaqsProps) => {
     return (
         <div className={`${lora.className} flex flex-col tablet:flex-row gap-5 items-start`}>
             <div className="box">

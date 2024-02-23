@@ -1,12 +1,12 @@
 'use client';
 
-import React, { useCallback, useEffect } from 'react';
 import Image from 'next/image';
+import React, { useCallback, useEffect } from 'react';
 import { ChevronLeft, ChevronRight, X } from 'lucide-react';
 import { LightboxProps } from '@/types/types';
 import { keys } from '@/constants/constants';
 
-const Lightbox = ({portfolio, currentImg, setCurrentImg, setIsOpen, handlePrevImage, handleNextImage} : LightboxProps) => {
+const Lightbox = ({ portfolio, currentImg, setCurrentImg, setIsOpen, handlePrevImage, handleNextImage } : LightboxProps) => {
     const handleKeyDown = useCallback((event: KeyboardEvent) => {
         if (event.key === keys.LEFT) handlePrevImage(portfolio, currentImg, setCurrentImg);
         if (event.key === keys.RIGHT) handleNextImage(portfolio, currentImg, setCurrentImg);

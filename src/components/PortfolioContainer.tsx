@@ -1,8 +1,8 @@
 import Link from "next/link";
+import { useTranslations } from "next-intl";
+import { Lora } from "next/font/google";
 import Portfolio from "./Portfolio";
 import SectionHeading from "./SectionHeading";
-import { Lora } from "next/font/google";
-import { useTranslations } from "next-intl";
 
 const lora = Lora({ subsets: ["latin"] });
 

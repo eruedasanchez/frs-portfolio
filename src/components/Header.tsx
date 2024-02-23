@@ -1,11 +1,11 @@
+import { useTranslations } from "next-intl";
 import Logo from "./Logo";
 import Navbar from "./Navbar";
 import MobileMenu from "./MobileMenu";
-import { useTranslations } from "next-intl";
+
 
 const Header = async () => {
     const t = useTranslations('Header');
-    
     const navLinks = [
         { label: t('NavLinks.firstLink.label'), url: t('NavLinks.firstLink.url') },
         { label: t('NavLinks.secondLink.label'), url: t('NavLinks.secondLink.url') },

@@ -1,18 +1,17 @@
 'use client';
 
 import { useEffect, useRef, useState } from "react";
-import { reviews } from "@/constants/constants";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { Swiper as SwiperType} from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
-import SingleReview from "./SingleReview";
+import { reviews } from "@/constants/constants";
 import { useWindowSize } from "@/hooks/useWindowsSize";
-import { Lora } from "next/font/google";
 import { TestimonialsProps } from "@/types/types";
+import { Lora } from "next/font/google";
+import SingleReview from "./SingleReview";
 
 const lora = Lora({ subsets: ["latin"] });
-
 
 const Testimonials = ({ testimonialsData } : TestimonialsProps) => {
     const swiperRef = useRef<SwiperType>();
