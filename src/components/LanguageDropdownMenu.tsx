@@ -5,14 +5,13 @@ import React, { useEffect, useState } from "react";
 import { useLocale } from "next-intl";
 import { usePathname } from "@/navigation";
 import { LanguageDropdownMenuProps } from "@/types/types";
-import { languages } from "@/constants/constants";
 import { ChevronDown, ChevronUp } from "lucide-react";
 import { Lora } from "next/font/google";
 import LanguageLink from "./LanguageLink";
 
 const lora = Lora({ subsets: ["latin"] });
 
-const LanguageDropdownMenu = ({containerStyles, iconStyles} : LanguageDropdownMenuProps) => {
+const LanguageDropdownMenu = ({ containerStyles, iconStyles, languages } : LanguageDropdownMenuProps) => {
     const [currentLanguageFlag, setCurrentLanguageFlag] = useState(languages[0].flag);
     const [isOpen, setIsOpen] = useState(false);
     
@@ -54,9 +53,27 @@ const LanguageDropdownMenu = ({containerStyles, iconStyles} : LanguageDropdownMe
             <div className={`text-grey-600 transition-all duration-1000 
             ${isOpen ? 'max-h-[155px] opacity-100 p-1 my-2' : 'max-h-0 opacity-0'}`}
             >
-                <LanguageLink index={0} locale="en" handleChangeLanguage={handleChangeLanguage} currentPathname={currentPathname}/>
-                <LanguageLink index={1} locale="es" handleChangeLanguage={handleChangeLanguage} currentPathname={currentPathname}/>
-                <LanguageLink index={2} locale="no" handleChangeLanguage={handleChangeLanguage} currentPathname={currentPathname}/>
+                <LanguageLink 
+                    index={0} 
+                    locale="en" 
+                    handleChangeLanguage={handleChangeLanguage} 
+                    currentPathname={currentPathname}
+                    languages={languages}
+                />
+                <LanguageLink 
+                    index={1} 
+                    locale="es" 
+                    handleChangeLanguage={handleChangeLanguage} 
+                    currentPathname={currentPathname}
+                    languages={languages}
+                />
+                <LanguageLink 
+                    index={2} 
+                    locale="no" 
+                    handleChangeLanguage={handleChangeLanguage} 
+                    currentPathname={currentPathname}
+                    languages={languages}
+                />
             </div>
         </div>
     );

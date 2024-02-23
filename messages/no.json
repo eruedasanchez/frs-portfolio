@@ -33,6 +33,23 @@
                 "url": "/contact"
             }
         },
+        "Languages": {
+            "firstLanguage": {
+                "title": "Engelsk",
+                "flag": "/uk.png",
+                "isoCode": "en"
+            },
+            "secondLanguage": {
+                "title": "Spansk",
+                "flag": "/spanish.png",
+                "isoCode": "es"
+            },
+            "thirdLanguage": {
+                "title": "Norge",
+                "flag": "/norge.png",
+                "isoCode": "no"
+            }
+        },
         "ContactMe":"Kontakt meg"
     },
     "Footer": {

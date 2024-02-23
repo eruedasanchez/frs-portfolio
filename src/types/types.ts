@@ -11,6 +11,12 @@ type NavLink = {
     url: string; 
 };
 
+export type Language = {
+    title: string;
+    flag: string;
+    isoCode: string 
+};
+
 export interface NavbarProps{
     navStyles: string, 
     ulStyles: string,
@@ -19,6 +25,7 @@ export interface NavbarProps{
     showLanguageMenu: boolean,
     navLinks: NavLink[],
     contactMe: string
+    languages: Language[]
 }  
 
 export interface NavLinksProps{
@@ -31,7 +38,8 @@ export interface NavLinksProps{
 
 export interface LanguageDropdownMenuProps{
     containerStyles: string, 
-    iconStyles: string
+    iconStyles: string,
+    languages: Language[]
 }
 
 export interface ThemeProps{
@@ -41,7 +49,8 @@ export interface ThemeProps{
 
 export interface MobileMenuProps {
     navLinks: NavLink[],
-    contactMe: string
+    contactMe: string,
+    languages: Language[]
 }
 
 /*-----------------------------*\

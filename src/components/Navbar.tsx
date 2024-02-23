@@ -10,7 +10,7 @@ import LanguageDropdownMenu from "./LanguageDropdownMenu";
 
 const lora = Lora({ subsets: ["latin"] });
 
-const Navbar = ({ navStyles, ulStyles, showTheme, toogleMenu, showLanguageMenu, navLinks, contactMe } : NavbarProps) => {
+const Navbar = ({ navStyles, ulStyles, showTheme, toogleMenu, showLanguageMenu, navLinks, contactMe, languages } : NavbarProps) => {
     return (
         <nav className={`${lora.className} flex items-center ${navStyles}`}>
             <ul className={`flex items-center ${ulStyles}`}>
@@ -43,6 +43,7 @@ const Navbar = ({ navStyles, ulStyles, showTheme, toogleMenu, showLanguageMenu, 
                         containerStyles="border-brown-700 dark:border-brown"
                         iconStyles="text-brown-700 dark:text-brown
                         text-brown-700 dark:text-brown"
+                        languages={languages}
                     />
                 }
                 {

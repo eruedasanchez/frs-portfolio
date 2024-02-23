@@ -5,14 +5,20 @@ import MobileMenu from "./MobileMenu";
 
 
 const Header = async () => {
-    const t = useTranslations('Header');
+    const header = useTranslations('Header');
     const navLinks = [
-        { label: t('NavLinks.firstLink.label'), url: t('NavLinks.firstLink.url') },
-        { label: t('NavLinks.secondLink.label'), url: t('NavLinks.secondLink.url') },
-        { label: t('NavLinks.thirdLink.label'), url: t('NavLinks.thirdLink.url') },
-        { label: t('NavLinks.fourthLink.label'), url: t('NavLinks.fourthLink.url') }
+        { label: header('NavLinks.firstLink.label'), url: header('NavLinks.firstLink.url') },
+        { label: header('NavLinks.secondLink.label'), url: header('NavLinks.secondLink.url') },
+        { label: header('NavLinks.thirdLink.label'), url: header('NavLinks.thirdLink.url') },
+        { label: header('NavLinks.fourthLink.label'), url: header('NavLinks.fourthLink.url') }
     ];
-    const contactMe = t('ContactMe');
+    const contactMe = header('ContactMe');
+
+    const languages = [
+        {title: header('Languages.firstLanguage.title'), flag: header('Languages.firstLanguage.flag'), isoCode: header('Languages.firstLanguage.isoCode')},
+        {title: header('Languages.secondLanguage.title'), flag: header('Languages.secondLanguage.flag'), isoCode: header('Languages.secondLanguage.isoCode')},
+        {title: header('Languages.thirdLanguage.title'), flag: header('Languages.thirdLanguage.flag'), isoCode: header('Languages.thirdLanguage.isoCode')}
+    ];
     
     return (
         <header className="flex justify-between items-center h-21 max-width border-b border-brown">
@@ -24,10 +30,12 @@ const Header = async () => {
                     showLanguageMenu
                     navLinks={navLinks}
                     contactMe={contactMe}
+                    languages={languages}
                 />
                 <MobileMenu 
                     navLinks={navLinks}
                     contactMe={contactMe}
+                    languages={languages}
                 />
         </header>
     );

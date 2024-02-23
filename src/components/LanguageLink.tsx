@@ -1,7 +1,8 @@
 import Image from 'next/image';
-import { languages } from '@/constants/constants';
+// import { languages } from '@/constants/constants';
 import { locales } from '@/config';
 import { Link } from '@/navigation';
+import { Language } from '@/types/types';
 
 type Locale = typeof locales[number];
 type ValidPathname = "/" | "/home" | "/about" | "/portfolio" | "/contact";
@@ -10,10 +11,11 @@ interface LanguageLinkProps {
     index: number,
     locale: Locale,
     handleChangeLanguage: () => void;
-    currentPathname: ValidPathname
+    currentPathname: ValidPathname,
+    languages: Language[]
 }
 
-const LanguageLink = ({ index, locale, handleChangeLanguage, currentPathname } : LanguageLinkProps) => {
+const LanguageLink = ({ index, locale, handleChangeLanguage, currentPathname, languages } : LanguageLinkProps) => {
     
     return (
         <Link

@@ -13,7 +13,7 @@ import { MobileMenuProps } from "@/types/types";
 
 const lora = Lora({ subsets: ["latin"] });
 
-const MobileMenu = ({ navLinks, contactMe } : MobileMenuProps) => {
+const MobileMenu = ({ navLinks, contactMe, languages } : MobileMenuProps) => {
     const [isOpen, setIsOpen] = useState(false);
     
     const toogleMenu = () => setIsOpen(!isOpen);
@@ -39,6 +39,7 @@ const MobileMenu = ({ navLinks, contactMe } : MobileMenuProps) => {
                     dark:border-brown-700 dark:hover:border-brown"
                     iconStyles="text-grey-700 hover:text-brown
                     dark:text-brown-700 dark:hover:text-brown"
+                    languages={languages}
                 />
                 <Theme
                     containerStyles="w-9 h-9 rounded-full flex justify-center items-center
@@ -78,6 +79,7 @@ const MobileMenu = ({ navLinks, contactMe } : MobileMenuProps) => {
                     showLanguageMenu={false}
                     navLinks={navLinks}
                     contactMe={contactMe}
+                    languages={languages}
                 />
                 <div className={`${lora.className} w-full h-20 flex justify-between items-center border-t border-brown px-7`}>
                     {

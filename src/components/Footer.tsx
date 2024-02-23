@@ -1,9 +1,9 @@
 import Link from "next/link";
-import NavLink from "./NavLink";
-import Logo from "./Logo";
 import { Lora } from "next/font/google";
 import { contactDetails, socialLinks } from "@/constants/constants";
 import { useTranslations } from "next-intl";
+import NavLink from "./NavLink";
+import Logo from "./Logo";
 
 const lora = Lora({ subsets: ["latin"] });
 

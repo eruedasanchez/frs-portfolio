@@ -33,6 +33,23 @@
                 "url": "/contact"
             }
         },
+        "Languages": {
+            "firstLanguage": {
+                "title": "Ingles",
+                "flag": "/uk.png",
+                "isoCode": "en"
+            },
+            "secondLanguage": {
+                "title": "Español",
+                "flag": "/spanish.png",
+                "isoCode": "es"
+            },
+            "thirdLanguage": {
+                "title": "Noruego",
+                "flag": "/norge.png",
+                "isoCode": "no"
+            }
+        },
         "ContactMe":"Contactame"
     },
     "Footer": {
