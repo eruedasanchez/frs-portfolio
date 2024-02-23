@@ -3,16 +3,6 @@ import { locales } from '@/config';
 import { getTranslations } from 'next-intl/server';
 import { Providers } from './[locale]/providers';
 import NotFound from '@/components/NotFound';
-// import { Metadata } from 'next';
-
-// export const metadata: Metadata = {
-//     title: '404 | Not Found'
-// };
-
-// type Props = {
-//     children: ReactNode;
-//     params: {locale: string};
-// };
 
 type Props = {
     children: ReactNode;
@@ -31,13 +21,9 @@ export async function generateMetadata({ params: {locale} } : Omit<Props, 'child
     };
 }
 
-// { children, params: {locale} } : Props
-
 export default async function NotFoundPage() {
-    // unstable_setRequestLocale(locale);
-    
     return (
-        <html lang='en'>
+        <html lang="en">
             <body className='bg-peach-600 dark:bg-slate-800'>
                 <Providers>
                     <NotFound/>

@@ -53,6 +53,13 @@ export interface MobileMenuProps {
     languages: Language[]
 }
 
+export interface SidebarProps { 
+    isOpen: boolean, 
+    toogleMenu: () => void, 
+    navLinks: NavLink[], 
+    contactMe: string, 
+    languages: Language[]
+} 
 /*-----------------------------*\
     "/" TYPES & INTERFACES
 \*-----------------------------*/
