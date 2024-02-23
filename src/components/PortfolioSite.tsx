@@ -1,7 +1,7 @@
 import Image from "next/image";
-import '../app/styles/dream-avenue.css';
 import { Lora } from "next/font/google";
 import { useTranslations } from "next-intl";
+import '../app/styles/dream-avenue.css';
 
 const lora = Lora({ subsets: ["latin"] });
 

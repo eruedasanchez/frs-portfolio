@@ -7,8 +7,8 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Swiper as SwiperType } from "swiper";
 import "swiper/css";
 import { ChevronLeft, ChevronRight } from "lucide-react";
-import PortfolioItem from "./PortfolioItem";
 import { Lora } from "next/font/google";
+import PortfolioItem from "./PortfolioItem";
 
 const lora = Lora({ subsets: ["latin"] });
 

@@ -218,23 +218,31 @@ export interface MilestoneProps{
     timeline: Milestone[] 
 }
 
+/*-----------------------------------*\
+    "/PORTFOLIO" TYPES & INTERFACES
+\*-----------------------------------*/
 
-
-
-
-
-
-
-
-
-
-
+/*----------------------*\
+    #PORTFOLIO SECTION
+\*----------------------*/
 
 export interface PortfolioSectionProps{
     data: Portfolio[], 
     title: string,
     portfolioTitles: PortfolioTitle[]
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 export interface ContactHeaderProps{

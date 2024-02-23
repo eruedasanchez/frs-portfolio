@@ -1,8 +1,8 @@
 import { unstable_setRequestLocale } from "next-intl/server";
+import { useTranslations } from "next-intl";
+import { portfolios } from "@/constants/constants";
 import PortfolioSite from "@/components/PortfolioSite";
 import PortfolioSection from "@/components/PortfolioSection";
-import { portfolios } from "@/constants/constants";
-import { useTranslations } from "next-intl";
 
 // import { Metadata } from "next";
 
@@ -10,9 +10,7 @@ import { useTranslations } from "next-intl";
 //     title: 'About | Florencia Rueda Sanchez'
 // };
 
-type Props = {
-    params: {locale: string};
-};
+type Props = { params: {locale: string}; };
 
 const PortfolioPage = ({params: {locale}}: Props) => {
     // Enable static rendering
