@@ -1,15 +1,14 @@
-// import { contactData, socialLinks } from "@/constants/constants";
-import { socialLinks } from "@/constants/constants";
-import ContactDetail from "./ContactDetail";
 import Link from "next/link";
+import { socialLinks } from "@/constants/constants";
+import { ContactBodyProps } from "@/types/types";
+import { Lora } from "next/font/google";
+import ContactDetail from "./ContactDetail";
 import ContactForm from "./ContactForm";
 import FaqsContainer from "./FaqsContainer";
-import { Lora } from "next/font/google";
-import { ContactBodyProps } from "@/types/types";
 
 const lora = Lora({ subsets: ["latin"] });
 
-const ContactBody = ({contactData, socialProfilesTitle, sendButton } : ContactBodyProps) => {
+const ContactBody = ({ contactData, socialProfilesTitle, sendButton } : ContactBodyProps) => {
     return (
         <>
             <section className={`${lora.className} max-width section-padding flex max-tablet:flex-col gap-16`}>

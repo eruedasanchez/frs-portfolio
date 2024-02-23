@@ -222,12 +222,6 @@ export const reviews = [
     }
 ];
 
-
-
-
-
-
-
 export const contactDetails = [
     {
         id: 1,
@@ -244,26 +238,6 @@ export const contactDetails = [
         icon: MapPin,
         text: "Oslo, Norway"
     }
-];
-
-
-export const contactData = [
-    {
-        id: 1,
-        title: "You can email me here",
-        contact: "florencia.rs@gmail.com"
-    },
-    {
-        id: 2,
-        title: "Gime me a call",
-        contact: "+47 486 73497"
-    },
-    {
-        id: 3,
-        title: "Location",
-        contact: "Oslo, Norway"
-    },
-    
 ];
 
 export const languages = [

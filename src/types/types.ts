@@ -232,25 +232,24 @@ export interface PortfolioSectionProps{
     portfolioTitles: PortfolioTitle[]
 }
 
+/*--------------------------------*\
+    "/CONTACT" TYPES & INTERFACES
+\*--------------------------------*/
 
-
-
-
-
-
-
-
-
-
-
-
+/*------------------*\
+    #CONTACT HEADER
+\*------------------*/
 
 export interface ContactHeaderProps{
     title: string,
     description: string
 }
 
-export type ContactInfo = {
+/*-----------------*\
+    #CONTACT BODY
+\*-----------------*/
+
+type ContactInfo = {
     title: string;
     info: string; 
 };
@@ -261,25 +260,21 @@ export interface ContactBodyProps{
     sendButton: string
 }
 
-// export interface ContactData{
-//     id: number,
-//     title: string,
-//     contact: string
-// }
+export interface ContactDetailProps{
+    info: ContactInfo
+}
 
 export interface ContactFormProps {
     sendButton: string
 }
 
-export interface ContactDetailProps{
-    info: ContactInfo
-}
 
 
-export interface LanguageData{
-    title: string,
-    flag: string
-}
+
+// export interface LanguageData{
+//     title: string,
+//     flag: string
+// }
 
 
 
