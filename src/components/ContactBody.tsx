@@ -8,7 +8,7 @@ import FaqsContainer from "./FaqsContainer";
 
 const lora = Lora({ subsets: ["latin"] });
 
-const ContactBody = ({ contactData, socialProfilesTitle, sendButton } : ContactBodyProps) => {
+const ContactBody = ({ contactData, socialProfilesTitle, sendButton, contactFormPlaceholders } : ContactBodyProps) => {
     return (
         <>
             <section className={`${lora.className} max-width section-padding flex max-tablet:flex-col gap-16`}>
@@ -41,7 +41,10 @@ const ContactBody = ({ contactData, socialProfilesTitle, sendButton } : ContactB
                         }
                     </div>
                 </div>
-                <ContactForm sendButton={sendButton}/>
+                <ContactForm 
+                    sendButton={sendButton}
+                    contactFormPlaceholders={contactFormPlaceholders}
+                />
             </section>
             <FaqsContainer/>
         </>

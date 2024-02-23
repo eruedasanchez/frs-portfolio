@@ -1,18 +1,12 @@
 'use client';
 
-import Link from "next/link";
 import { useCallback, useEffect, useState } from "react";
-import { Menu, X } from "lucide-react";
-import { Lora } from "next/font/google";
-import { keys, socialLinks } from "@/constants/constants";
-import Navbar from "./Navbar";
-import Logo from "./Logo";
-import Theme from "./Theme";
-import LanguageDropdownMenu from "./LanguageDropdownMenu";
 import { MobileMenuProps } from "@/types/types";
+import { Menu } from "lucide-react";
+import { keys } from "@/constants/constants";
+import LanguageDropdownMenu from "./LanguageDropdownMenu";
+import Theme from "./Theme";
 import Sidebar from "./Sidebar";
-
-const lora = Lora({ subsets: ["latin"] });
 
 const MobileMenu = ({ navLinks, contactMe, languages } : MobileMenuProps) => {
     const [isOpen, setIsOpen] = useState(false);

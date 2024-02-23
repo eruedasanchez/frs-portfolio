@@ -287,6 +287,13 @@
                 "info":"Oslo, Norway"
             }
         },
+        "FormPlaceholders": {
+            "firstName": "Nombre", 
+            "lastName": "Apellido", 
+            "email": "Email", 
+            "phone": "Telefono",
+            "message": "Mensaje"
+        },
         "SocialProfiles":" Mis pefiles en redes",
         "Send":"Enviar"
     }

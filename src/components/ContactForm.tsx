@@ -15,7 +15,7 @@ type Inputs = {
     message: string
 };
 
-const ContactForm = ({ sendButton } : ContactFormProps) => {
+const ContactForm = ({ sendButton, contactFormPlaceholders } : ContactFormProps) => {
     const { register, handleSubmit, formState: {errors}} = useForm<Inputs>({
         resolver: zodResolver(userContactSchema)
     });
@@ -32,7 +32,7 @@ const ContactForm = ({ sendButton } : ContactFormProps) => {
             } catch (error) {
                 console.error("Error al enviar el email:", error);
             }
-        }
+        } 
     };
     
     return (
@@ -42,7 +42,7 @@ const ContactForm = ({ sendButton } : ContactFormProps) => {
                     <div className="w-full mb-2">
                         <input 
                             type="text" 
-                            placeholder="First Name"
+                            placeholder={contactFormPlaceholders.firstName}
                             {...register('firstName')}
                             className={`${errors.firstName?.message && 'w-full border-2 border-red-400 bg-red-200'}`}
                             
@@ -54,7 +54,7 @@ const ContactForm = ({ sendButton } : ContactFormProps) => {
                     <div className="w-full mb-2 max-tablet:mb-4">
                         <input 
                             type="text" 
-                            placeholder="Last Name"
+                            placeholder={contactFormPlaceholders.lastName}
                             {...register('lastName')}
                             className={`${errors.lastName?.message && 'border-2 border-red-400 bg-red-200'}`}
                         />
@@ -67,7 +67,7 @@ const ContactForm = ({ sendButton } : ContactFormProps) => {
                     <div className="w-full mb-2"> 
                         <input 
                             type="email" 
-                            placeholder="Email"
+                            placeholder={contactFormPlaceholders.email}
                             {...register('email')}
                             className={`${errors.email?.message && 'border-2 border-red-400 bg-red-200'}`}
                         />
@@ -79,7 +79,7 @@ const ContactForm = ({ sendButton } : ContactFormProps) => {
                     <div className="w-full mb-2 max-tablet:mb-4">
                         <input 
                             type="text" 
-                            placeholder="Phone"
+                            placeholder={contactFormPlaceholders.phone}
                             {...register('phone')}
                             className={`${errors.phone?.message && 'border-2 border-red-400 bg-red-200'}`}
                         />
@@ -89,7 +89,7 @@ const ContactForm = ({ sendButton } : ContactFormProps) => {
                     </div>
                 </div>
                 <textarea 
-                    placeholder="Message" 
+                    placeholder={contactFormPlaceholders.message} 
                     {...register('message')}
                     className={`min-h-[200px] mb-2 ${errors.message?.message && 'border-2 border-red-400 bg-red-200'}`}
                 ></textarea>
@@ -110,7 +110,10 @@ const ContactForm = ({ sendButton } : ContactFormProps) => {
                             }
                         }
                 >{sendButton}</button>
-                <Toaster theme="system" visibleToasts={1}  closeButton  richColors/>
+                {
+                    (Object.keys(errors).length === 0) &&
+                    <Toaster theme="system" visibleToasts={1} closeButton richColors/> 
+                }
             </form>
         </div>
     );
@@ -119,3 +122,5 @@ const ContactForm = ({ sendButton } : ContactFormProps) => {
 export default ContactForm;
 
 
+
+    

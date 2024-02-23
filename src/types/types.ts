@@ -270,10 +270,19 @@ type ContactInfo = {
     info: string; 
 };
 
+type PlaceholderFields = {
+    firstName: string;
+    lastName: string;
+    email: string;
+    phone: string;
+    message: string;
+};
+
 export interface ContactBodyProps{
     contactData : ContactInfo[],
     socialProfilesTitle: string,
     sendButton: string
+    contactFormPlaceholders: PlaceholderFields
 }
 
 export interface ContactDetailProps{
@@ -282,6 +291,7 @@ export interface ContactDetailProps{
 
 export interface ContactFormProps {
     sendButton: string
+    contactFormPlaceholders: PlaceholderFields
 }
 
 

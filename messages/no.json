@@ -287,8 +287,15 @@
                 "info":"Oslo, Norge"
             }
         },
+        "FormPlaceholders": {
+            "firstName": "Navn", 
+            "lastName": "Etternavn", 
+            "email": "E-post", 
+            "phone": "Telefon",
+            "message": "Melding"
+        },
         "SocialProfiles":"Mine sosiale profiler",
-        "Send":"Send"
+        "Send":"Sende"
     }
 }
 

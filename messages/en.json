@@ -290,11 +290,17 @@
                 "info":"Oslo, Norway"
             }
         },
+        "FormPlaceholders": {
+            "firstName": "First Name", 
+            "lastName": "Last Name", 
+            "email": "Email", 
+            "phone": "Phone",
+            "message": "Message"
+        },
         "SocialProfiles":" My Social Profiles",
         "Send":"Send"
     }
 }
-
 
 
 

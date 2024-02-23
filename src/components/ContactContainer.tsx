@@ -11,6 +11,14 @@ const ContactContainer = () => {
         { title: contactPage('ContactData.locationData.title'), info: contactPage('ContactData.locationData.info') },
     ];
 
+    const contactFormPlaceholders = {
+        firstName: contactPage('FormPlaceholders.firstName'),
+        lastName: contactPage('FormPlaceholders.lastName'),
+        email: contactPage('FormPlaceholders.email'),
+        phone: contactPage('FormPlaceholders.phone'),
+        message: contactPage('FormPlaceholders.message'),
+    };
+    
     return (
         <>
             <ContactHeader 
@@ -20,7 +28,9 @@ const ContactContainer = () => {
             <ContactBody 
                 contactData={contactData} 
                 socialProfilesTitle={contactPage('SocialProfiles')}
-                sendButton={contactPage('Send')}/>
+                sendButton={contactPage('Send')}
+                contactFormPlaceholders={contactFormPlaceholders}
+            />
         </>
     );
 }
