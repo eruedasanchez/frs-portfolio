@@ -226,6 +226,8 @@ export const reviews = [
 
 
 
+
+
 export const contactDetails = [
     {
         id: 1,
@@ -244,33 +246,6 @@ export const contactDetails = [
     }
 ];
 
-// este arreglo no lo voy a usar mas 
-export const timeline = [
-    {
-        id: 1,
-        title: "Tourist Guide - Oslo, Norway",
-        duration: "2020 - Present",
-        description: "Planning, organization of private tours and guided visits to the notable places of the Norwegian capital such as the Folk Museum, the Viking Museum and the Royal Palace of Oslo."
-    },
-    {
-        id: 2,
-        title: "Tourist Guide - Buenos Aires Bus",
-        duration: "2015 - 2020",
-        description: "Tourist bus that runs through the most emblematic neighborhoods of the city of Buenos Aires with panoramic views to appreciate historical places, cultural spaces and unique neighborhoods full of Argentine culture."
-    },
-    {
-        id: 3,
-        title: "Tourist Guide - Sturla Viajes",
-        duration: "2013 - 2015",
-        description: "River passenger transportation in Delta. Coordination, attention and administration of operational and satellite navigation systems in the units, providing us with immediate information about the location, speed and itinerary."
-    },
-    {
-        id: 4,
-        title: "Degree in Tourism - University of Moron",
-        duration: "2010 - 2013",
-        description: "Internships and professional practices applying knowledge in real work environments and acquiring practical experience in the tourism industry."
-    }
-];
 
 export const contactData = [
     {

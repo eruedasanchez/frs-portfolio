@@ -200,6 +200,27 @@ export interface AccordionProps{
     faqsData: Faq[] 
 }
 
+/*-------------------------------*\
+    "/ABOUT" TYPES & INTERFACES
+\*-------------------------------*/
+
+/*-------------------------*\
+    #MILESTONE CONTAINER
+\*-------------------------*/
+
+type Milestone = {
+    title: string;
+    duration: string; 
+    description: string
+};
+
+export interface MilestoneProps{
+    timeline: Milestone[] 
+}
+
+
+
+
 
 
 
@@ -252,15 +273,7 @@ export interface LanguageData{
     flag: string
 }
 
-export type Milestone = {
-    title: string;
-    duration: string; 
-    description: string
-};
 
-export interface MilestoneProps{
-    timeline: Milestone[] 
-}
 
 
 

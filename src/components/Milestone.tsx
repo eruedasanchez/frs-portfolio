@@ -1,13 +1,12 @@
 'use client';
 
 import { useEffect, useRef } from "react";
-// import { timeline } from "@/constants/constants";
 import { Lora } from "next/font/google";
 import { MilestoneProps } from "@/types/types";
 
 const lora = Lora({ subsets: ["latin"] });
 
-const Milestone = ({timeline} : MilestoneProps) => {
+const Milestone = ({ timeline } : MilestoneProps) => {
     const milestoneRefs = useRef<(HTMLDivElement | null)[]>([]);
     
     useEffect(() => {

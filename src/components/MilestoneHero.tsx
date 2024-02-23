@@ -1,9 +1,9 @@
 import Image from "next/image";
-import Stats from "./Stats";
+import { useTranslations } from "next-intl";
 import { Lora } from "next/font/google";
+import Stats from "./Stats";
 import '../app/styles/dream-avenue.css';
 import '../app/styles/lora.css';
-import { useTranslations } from "next-intl";
 
 const lora = Lora({ subsets: ["latin"] });
 
