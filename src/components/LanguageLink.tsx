@@ -1,26 +1,28 @@
 import Image from 'next/image';
-import { Link } from '@/navigation';
 import { languages } from '@/constants/constants';
-import { LanguageData } from '@/types/types';
 import { locales } from '@/config';
+import { Link } from '@/navigation';
 
 type Locale = typeof locales[number];
+type ValidPathname = "/" | "/home" | "/about" | "/portfolio" | "/contact";
 
 interface LanguageLinkProps {
     index: number,
     locale: Locale,
-    handleChangeLanguage: (language: LanguageData) => void;
+    handleChangeLanguage: () => void;
+    currentPathname: ValidPathname
 }
 
-const LanguageLink = ({ index, locale, handleChangeLanguage } : LanguageLinkProps) => {
+const LanguageLink = ({ index, locale, handleChangeLanguage, currentPathname } : LanguageLinkProps) => {
+    
     return (
         <Link
-            href="/"
+            href={currentPathname}
             locale={locale} 
             className="flex w-full h-1/2 justify-between px-1 py-1 mb-2
             cursor-pointer border-l-transparent border-l-2
             hover:border-l-brown-700 hover:transition-all hover:duration-700"
-            onClick={() => handleChangeLanguage(languages[index])}
+            onClick={() => handleChangeLanguage()}
             
         >
             <h3 className="text-sm font-light text-gray-700 dark:text-peach-500 ">{languages[index].title}</h3>
