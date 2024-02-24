@@ -5,6 +5,7 @@ import { locales } from '../../config';
 import { Providers } from './providers';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import BackToTopButton from '@/components/BackToTopButton';
 
 type Props = {
     children: ReactNode;
@@ -34,6 +35,7 @@ export default async function LocaleLayout({ children, params: {locale} } : Prop
                     <Header/>
                     <main className="min-h-screen">{children}</main>
                     <Footer/>
+                    <BackToTopButton/>
                 </Providers>
             </body>
         </html>
