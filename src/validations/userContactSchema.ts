@@ -1,21 +1,20 @@
-import { useTranslations } from 'next-intl';
 import { z } from 'zod';
 
-const validFirstNameRegex = /^[A-Za-z\s]+$/;
+const validNameRegex = /^[A-Za-z\s]+$/;
 
 export const userContactSchema = z.object({
     firstName: z
         .string()
         .min(3, { message: "First Name must be at least 3 characters"})
         .max(120, { message: "First Name must be less than 120 characters"})
-        .refine(firstName => validFirstNameRegex.test(firstName), {
+        .refine(firstName => validNameRegex.test(firstName), {
             message: "First Name must contain only alphabetic characters. E.g: John"
         }),
     lastName: z
         .string()
         .min(3, { message: "Last Name must be at least 3 characters"})
         .max(120, { message: "Last Name must be less than 120 characters"})
-        .refine(lastName => validFirstNameRegex.test(lastName), {
+        .refine(lastName => validNameRegex.test(lastName), {
             message: "Last Name must contain only alphabetic characters. E.g: Doe"
         }),
     email: z.string().email({message: "Please enter a valid email. E.g:john.doe@gmail.com"}),
