@@ -6,6 +6,12 @@ import { string } from "zod";
     #HEADER TYPES & INTERFACES
 \*-----------------------------*/
 
+export interface HeaderProps{
+    navLinks: NavLink[], 
+    contactMe: string, 
+    languages: Language[]
+}
+
 type NavLink = {
     label: string;
     url: string; 

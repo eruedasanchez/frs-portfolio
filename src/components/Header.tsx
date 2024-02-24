@@ -1,27 +1,33 @@
-import { useTranslations } from "next-intl";
+'use client';
+
 import Logo from "./Logo";
 import Navbar from "./Navbar";
 import MobileMenu from "./MobileMenu";
+import { useEffect, useState } from "react";
+import { HeaderProps } from "@/types/types";
 
+const Header = ({ navLinks, contactMe, languages } : HeaderProps) => {
+    const [isNavbarFixed, setIsNavbarFixed] = useState(false);
 
-const Header = async () => {
-    const header = useTranslations('Header');
-    const navLinks = [
-        { label: header('NavLinks.firstLink.label'), url: header('NavLinks.firstLink.url') },
-        { label: header('NavLinks.secondLink.label'), url: header('NavLinks.secondLink.url') },
-        { label: header('NavLinks.thirdLink.label'), url: header('NavLinks.thirdLink.url') },
-        { label: header('NavLinks.fourthLink.label'), url: header('NavLinks.fourthLink.url') }
-    ];
-    const contactMe = header('ContactMe');
+    useEffect(() => {
+        const handleScroll = () => {
+            if (window.scrollY > 100) {
+                setIsNavbarFixed(true);
+            } else {
+                setIsNavbarFixed(false);
+            }
+        };
 
-    const languages = [
-        {title: header('Languages.firstLanguage.title'), flag: header('Languages.firstLanguage.flag'), isoCode: header('Languages.firstLanguage.isoCode')},
-        {title: header('Languages.secondLanguage.title'), flag: header('Languages.secondLanguage.flag'), isoCode: header('Languages.secondLanguage.isoCode')},
-        {title: header('Languages.thirdLanguage.title'), flag: header('Languages.thirdLanguage.flag'), isoCode: header('Languages.thirdLanguage.isoCode')}
-    ];
+        window.addEventListener('scroll', handleScroll);
+
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
     
     return (
-        <header className="flex justify-between items-center h-21 max-width border-b border-brown">
+        <header className={`flex justify-between items-center h-21 max-width border-b border-brown
+        ${isNavbarFixed && 'fixed top-0 left-0 right-0 z-50 bg-peach-600 transition-all duration-500'}`}>
                 <Logo/>
                 <Navbar
                     navStyles="gap-12 max-tablet:hidden"
