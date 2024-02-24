@@ -30,13 +30,13 @@ const PortfolioCenter = ({portfolio, currentImg, setCurrentImg, portfolioTitle} 
         <>
             <>
                 <h4 className={`${lora.className} text-2xl mb-5`}>{portfolioTitle?.name}</h4>
-                <div className="relative w-full h-80 rounded-lg overflow-hidden 
-                group cursor-pointer mb-5 hover:scale-105 transition-all duration-450">
+                <div className="relative w-full h-64 rounded-lg overflow-hidden 
+                group cursor-pointer mb-5 hover:scale-105 transition-all duration-450"> 
                     <Image
                         src={currentImg}
                         alt={portfolio.title}
                         fill
-                        className="object-cover"
+                        sizes="100%"
                     />
                     <div className="bg-black bg-opacity-10 backdrop-blur-[1px]
                     absolute top-0 left-0 w-full h-full opacity-0

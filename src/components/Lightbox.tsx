@@ -43,8 +43,8 @@ const Lightbox = ({ portfolio, currentImg, setCurrentImg, setIsOpen, handlePrevI
                     <Image
                         src={currentImg}
                         alt={portfolio.title}
-                        layout="fill"
-                        objectPosition="center"
+                        fill
+                        sizes="100%"
                         className="rounded-2xl"
                     />
                 }

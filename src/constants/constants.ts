@@ -27,9 +27,9 @@ export const portfolios = [
         title: "Buenos Aires Bus - BA",
         link: "#",
         images: [
-            "/ba-bus-1.jpg",
-            "/ba-bus-2.jpg",
-            "/ba-bus-3.jpg"
+            "/ba-bus-1.webp",
+            "/ba-bus-2.webp",
+            "/ba-bus-3.webp"
         ]
     },
     {
@@ -37,9 +37,9 @@ export const portfolios = [
         title: "Sturla Viajes - BA",
         link: "#",
         images: [
-            "/delta-1.jpg",
-            "/delta-2.jpg",
-            "/delta-3.jpeg"
+            "/delta-1.webp",
+            "/delta-2.webp",
+            "/delta-3.webp"
         ]
     },
     {
@@ -47,9 +47,9 @@ export const portfolios = [
         title: "Wine Route - Mendoza",
         link: "#",
         images: [
-            "/wine-tour-1.jpg",
-            "/wine-tour-2.png",
-            "/wine-tour-3.jpg",
+            "/wine-tour-1.webp",
+            "/wine-tour-2.webp",
+            "/wine-tour-3.webp",
         ]
     },
     {
@@ -57,9 +57,9 @@ export const portfolios = [
         title: "Circuito Chico - Bariloche",
         link: "#",
         images: [
-            "/bariloche-1.jpg",
-            "/bariloche-2.jpeg",
-            "/bariloche-3.jpeg",
+            "/bariloche-1.webp",
+            "/bariloche-2.webp",
+            "/bariloche-3.webp",
         ]
     },
     {
@@ -67,9 +67,9 @@ export const portfolios = [
         title: "Iguazu Falls - Misiones",
         link: "#",
         images: [
-            "/cataratas-1.jpg",
-            "/cataratas-2.jpg",
-            "/cataratas-3.jpg",
+            "/cataratas-1.webp",
+            "/cataratas-2.webp",
+            "/cataratas-3.webp",
         ]
     },
     {
@@ -77,9 +77,9 @@ export const portfolios = [
         title: "Purmamarca - Jujuy",
         link: "#",
         images: [
-            "/purmamarca-1.jpg",
-            "/purmamarca-2.jpeg",
-            "/purmamarca-3.jpeg"
+            "/purmamarca-1.webp",
+            "/purmamarca-2.webp",
+            "/purmamarca-3.webp"
         ]
     },
     {
@@ -87,9 +87,9 @@ export const portfolios = [
         title: "Perito Moreno Glacier - Santa Cruz",
         link: "#",
         images: [
-            "/perito-moreno-1.jpg",
-            "/perito-moreno-2.jpeg",
-            "/perito-moreno-3.jpg"
+            "/perito-moreno-1.webp",
+            "/perito-moreno-2.webp",
+            "/perito-moreno-3.webp"
         ]
     },
     {
@@ -97,9 +97,9 @@ export const portfolios = [
         title: "City of Oslo - Norway",
         link: "#",
         images: [
-            "/oslo-1.jpg",
-            "/oslo-2.jpg",
-            "/oslo-3.jpg"
+            "/oslo-1.webp",
+            "/oslo-2.webp",
+            "/oslo-3.webp"
         ]
     },
     {
@@ -107,9 +107,9 @@ export const portfolios = [
         title: "Amsterdam -  Netherlands",
         link: "#",
         images: [
-            "/amstherdam-1.jpg",
-            "/amstherdam-2.jpg",
-            "/amstherdam-3.jpg"
+            "/amstherdam-1.webp",
+            "/amstherdam-2.webp",
+            "/amstherdam-3.webp"
         ]
     }
 ];

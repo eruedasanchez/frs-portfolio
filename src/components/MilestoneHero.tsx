@@ -14,7 +14,7 @@ const MilestoneHero = () => {
         <section className="max-width section-padding flex flex-col tablet:flex-row gap-20 items-center">
             <div className="relative w-full max-w-[550px] aspect-[40/45] my-1 tablet:my-8 mx-auto">
                 <Image
-                    src={"/hero-2.jpg"}
+                    src={"/hero-2.webp"}
                     alt="about img"
                     fill
                     sizes="(max-width: 768px) 100vw, 550px"

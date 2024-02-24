@@ -15,7 +15,7 @@ const PortfolioThumbnails = ({ currentImg, portfolio, setCurrentImg } : Portfoli
                             src={image}
                             alt={portfolio.title}
                             fill
-                            className="object-cover"
+                            sizes="100%"
                         />
                         <div className={`bg-black bg-opacity-10 backdrop-blur-[1px]
                         absolute top-0 left-0 w-full h-full

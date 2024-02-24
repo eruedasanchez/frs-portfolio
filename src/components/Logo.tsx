@@ -9,6 +9,7 @@ const Logo = () => {
                 alt="dachshund-logo"
                 width={100}
                 height={100}
+                priority
             />
         </Link>
     );

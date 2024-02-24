@@ -47,12 +47,12 @@ const Hero = ({header, title, description, contact, viewPortfolio} : HeroProps) 
                     statsDetailStyles="py-8 px-10 rounded-lg bg-peach-400 text-center col-span-2"
                 />
             </div>
-            <div className="relative w-full max-w-[550px] aspect-[40/45] my-4 tablet:my-8 mx-auto">
+            <div className="relative w-full max-w-[530px] aspect-[40/45] my-4 tablet:my-8 mx-auto">
                 <Image
-                    src={"/hero-1.jpg"}
+                    src={"/hero-1.webp"}
                     alt="hero"
                     fill
-                    sizes="(max-width: 768px) 100vw, 550px"
+                    sizes="(max-width: 768px) 100vw, 530px"
                     priority
                     className="rounded-2xl"
                 />

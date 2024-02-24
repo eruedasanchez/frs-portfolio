@@ -141,7 +141,6 @@ export interface Portfolio{
 }
 
 export interface PortfolioProps{
-    key: number,
     portfolio: Portfolio,
     portfolioTitle: PortfolioTitle
 }
