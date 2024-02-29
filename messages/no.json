@@ -1,15 +1,19 @@
 {
     "LocaleLayout": {
-        "title": "Min portefølje | Hjem"
+        "title": "Min portefølje",
+        "description": "Fordyp deg i mine eventyr som reiseleder"
     },
     "AboutPage": {
-        "title": "Min portefølje | Om"
+        "title": "Om",
+        "description": "Finn ut mer om meg"
     },
     "PortfolioPage": {
-        "title": "Min portefølje | Portefølje"
+        "title": "Portefølje",
+        "description": "Oppdag min profesjonelle erfaring"
     },
     "ContactPageLayout": {
-        "title": "Min portefølje | Kontakt"
+        "title": "Kontakt",
+        "description": "Kontakt meg for å jobbe sammen"
     },
     "NotFoundPage": {
         "title": "Side ikke funnet",

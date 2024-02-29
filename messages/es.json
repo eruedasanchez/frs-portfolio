@@ -1,15 +1,19 @@
 {
     "LocaleLayout": {
-        "title": "Mi portfolio | Inicio"
+        "title": "Mi portfolio",
+        "description": "Sumergite en mis aventuras como guia de turismo"
     },
     "AboutPage": {
-        "title": "Mi portfolio | Acerca"
+        "title": "Acerca",
+        "description": "Descubre más acerca de mi"
     },
     "PortfolioPage": {
-        "title": "Mi portfolio | Portfolio"
+        "title": "Portfolio",
+        "description": "Descubre mi experiencia profesional"
     },
     "ContactPageLayout": {
-        "title": "Mi portfolio | Contacto"
+        "title": "Contacto",
+        "description": "Contáctame para trabajar juntos"
     },
     "NotFoundPage": {
         "title": "Pagina no encontrada",

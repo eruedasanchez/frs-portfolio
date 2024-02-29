@@ -10,7 +10,8 @@ export async function generateMetadata({ params: {locale} } : Omit<Props, 'child
     const t = await getTranslations({locale, namespace: 'PortfolioPage'});
     
     return {
-        title: t('title')
+        title: t('title'),
+        description: t('description')
     };
 }
 

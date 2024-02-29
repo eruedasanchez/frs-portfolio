@@ -1,3 +1,5 @@
+export const dynamic = 'force-dynamic';
+
 import { ReactNode } from 'react';
 import { locales } from '@/config';
 import { getTranslations } from 'next-intl/server';
@@ -17,7 +19,8 @@ export async function generateMetadata({ params: {locale} } : Omit<Props, 'child
     const t = await getTranslations({locale, namespace: 'Error-404'});
     
     return {
-        title: t('title')
+        title: t('title'),
+        description: t('description')
     };
 }
 
