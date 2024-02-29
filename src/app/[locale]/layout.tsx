@@ -32,17 +32,6 @@ export async function generateMetadata({ params: {locale} } : Omit<Props, 'child
     };
 }
 
-// export const metadata: Metadata = {
-//     title: {
-//         default: "My awesome blog",
-//         template: "%s - My awesome blog"
-//     },
-//     description: "Come and read my awesome articles!",
-//     twitter: {
-//         card: "summary_large_image"
-//     }
-// }
-
 // twitter.card: Esta propiedad indica el tipo de tarjeta que se utilizará en los tweets 
 // relacionados con la página. En este caso, se establece en "summary_large_image". 
 // Esto significa que cuando alguien comparta un enlace a la página en Twitter, 
